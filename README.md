@@ -1,43 +1,43 @@
 # de-learn-de 🇩🇪
 
-Dashboard pembelajaran bahasa Jerman A1 untuk Ine Maria. Kursus 14 hari yang interaktif, mobile-first, dan bergamifikasi.
+Ine Maria's German A1 course dashboard. A 14-day interactive course that's mobile-first and gamified.
 
-## 🎯 Apa itu de-learn-de?
+## 🎯 What is de-learn-de?
 
-- **de** = sapaan akrab (dek/dik)
-- **learn** = belajar
-- **de** = Deutschland (Jerman)
+- **de** = affectionate address (dee/kik)
+- **learn** = to learn
+- **de** = Deutschland (Germany)
 
-> "De-learn-de" = Belajar Jerman dengan yang kita sayangi
-
----
-
-## ✨ Fitur
-
-- **14 Hari Kurikulum A1** - Harian ada 4 sesi: Hören (Listening), Lesen (Reading), Schreiben (Writing), Sprechen (Speaking)
-- **Progress Locked** - Harus selesai semua 4 sesi hari ini baru bisa lanjut hari besok
-- **Streak Counter** - Menghitung hari beruntun belajar
-- **80 Soal A1** - Bank soal diacak setiap sesi
-- **Mobile-First Design** - Optimal untuk smartphone Ine
-- **Progress Saved** - Tersimpan di browser (tidak hilang saat refresh)
+> "de-learn-de" = Learn German with someone you love
 
 ---
 
-## 🚀 Deploy ke Vercel
+## ✨ Features
 
-### Cara 1: Via Dashboard (Sederhana)
+- **14-Day A1 Curriculum** - Daily sessions: Hören (Listening), Lesen (Reading), Schreiben (Writing), Sprechen (Speaking)
+- **Progress Locked** - Must finish all 4 sessions today before tomorrow unlocks
+- **Streak Counter** - Tracks consecutive learning days
+- **80 A1 Questions** - Question bank randomly generates new quizzes
+- **Mobile-First Design** - Optimized for Ine's phone
+- **Progress Saved** - Automatically saved to browser (won't lose progress on refresh)
 
-1. Buka [vercel.com](https://vercel.com) dan login
-2. Klik **"Add New..."** → **"Project"**
-3. Pilih repository `de-learn-de` dari GitHub
-4. Klik **"Deploy"**
+---
 
-Vercel akan otomatis:
-- Build project Next.js
-- Deploy ke production
-- Berikan link (misal: `https://de-learn-de.vercel.app`)
+## 🚀 Deploy to Vercel
 
-### Cara 2: Via CLI
+### Method 1: Via Dashboard (Simplest)
+
+1. Go to [vercel.com](https://vercel.com) and login
+2. Click **"Add New..."** → **"Project"**
+3. Select the `de-learn-de` repository from GitHub
+4. Click **"Deploy"**
+
+Vercel will automatically:
+- Build the Next.js project
+- Deploy to production
+- Give you a link (e.g., `https://de-learn-de.vercel.app`)
+
+### Method 2: Via CLI
 
 ```bash
 npm i -g vercel
@@ -46,51 +46,53 @@ vercel
 
 ---
 
-## 📱 Kurikulum 14 Hari
+## 📱 14-Day Curriculum
 
-### Fase 1: Dasar (Hari 1-5)
-- Hari 1: Alphabet, Begrüßung
-- Hari 2: Numbers 1-20
-- Hari 3: Personal Pronouns, Present Tense
-- Hari 4: Colors & Family
-- Hari 5: Modal Verbs
+### Phase 1: Basics (Days 1-5)
+- Day 1: Alphabet, Greetings
+- Day 2: Numbers 1-20
+- Day 3: Personal Pronouns, Present Tense
+- Day 4: Colors & Family
+- Day 5: Modal Verbs
 
-### Fase 2: Kehidupan Sehari-hari (Hari 6-10)
-- Hari 6: Food & Drinks
-- Hari 7: Time & Daily Schedule
-- Hari 8: Shopping & Money
-- Hari 9: Directions & Places
-- Hari 10: Weather & Seasons
+### Phase 2: Daily Life (Days 6-10)
+- Day 6: Food & Drinks
+- Day 7: Time & Daily Schedule
+- Day 8: Shopping & Money
+- Day 9: Directions & Places
+- Day 10: Weather & Seasons
 
-### Fase 3: Pemantapan (Hari 11-14)
-- Hari 11: Past Tense Basics
-- Hari 12-14: Mock Tests
+### Phase 3: Practice (Days 11-14)
+- Day 11: Past Tense Basics
+- Day 12-14: Mock Tests
 
 ---
 
-## 🎯 Cara Menggunakan
+## 🎯 How to Use
 
-1. **Buka link** - Ine buka web dari HP-nya
-2. **Pilih Hari Pertama** - Klik "Hari Ke-1" (selalu unlocked)
-3. **Selesaikan 4 Sesi** - Hören, Lesen, Schreiben, Sprechen
-4. **Progress Otomatis** - Setelah semua hijau, hari besok otomatis terbuka
-5. **Lanjut Sekarang** - Tidak perlu refresh atau kirim pesan
+1. **Open the link** - Ine opens the website on her phone
+2. **Pick Day 1** - Always unlocked
+3. **Complete 4 Sessions** - Hören, Lesen, Schreiben, Sprechen
+4. **Auto-Progress** - Once all green, tomorrow automatically unlocks
+5. **Continue Now** - No need to refresh or send messages
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Next.js 16.1.6** - React framework
-- **TypeScript** - Type safety
-- **Tailwind CSS 4** - Styling
-- **Local Storage** - Progress persistence
-- **Playwright** - Testing & screenshots
+| Technology | Purpose |
+|------------|---------|
+| Next.js 16.1.6 | React framework |
+| TypeScript | Type safety |
+| Tailwind CSS 4 | Styling |
+| Local Storage | Progress persistence |
+| Playwright | Testing & screenshots |
 
 ---
 
 ## 📊 Progress System
 
-Progress tersimpan di browser dengan key `german-progress`:
+Progress is saved to browser with key `german-progress`:
 
 ```json
 {
@@ -107,9 +109,9 @@ Progress tersimpan di browser dengan key `german-progress`:
 
 ## 📝 Customization
 
-### Edit Warna Theme
+### Edit Theme Colors
 
-Buka `src/app/globals.css`:
+Open `src/app/globals.css`:
 
 ```css
 @theme {
@@ -119,9 +121,9 @@ Buka `src/app/globals.css`:
 }
 ```
 
-### Edit Soal
+### Edit Questions
 
-Buka `data/questions.json` - tambah/mengurangi soal di sana.
+Open `data/questions.json` - add/remove questions there.
 
 ---
 
@@ -146,25 +148,25 @@ npm start
 ## 📱 Mobile Features
 
 - Bottom navigation bar
-- Touch-friendly buttons (lebih besar dari 44x44px)
+- Touch-friendly buttons (larger than 44x44px)
 - Single column layout
-- Optimized untuk 375px width (iPhone 12 mini)
+- Optimized for 375px width (iPhone 12 mini)
 
 ---
 
-## 📦 Struktur Project
+## 📦 Project Structure
 
 ```
 de-learn-de/
 ├── src/
 │   ├── app/
-│   │   ├── page.tsx          # Dashboard utama
+│   │   ├── page.tsx          # Main dashboard
 │   │   ├── context/
 │   │   │   └── ProgressContext.tsx  # Progress logic
 │   │   ├── day/
-│   │   │   └── [id]/page.tsx       # Materi harian
+│   │   │   └── [id]/page.tsx       # Daily material
 │   │   ├── components/
-│   │   │   └── BottomNav.tsx       # Navigasi bawah
+│   │   │   └── BottomNav.tsx       # Bottom nav
 │   │   └── globals.css        # Theme colors
 │   └── data/
 │       └── questions.json     # Bank soal 80 pertanyaan
@@ -186,10 +188,10 @@ docker run -p 3000:3000 de-learn-de
 
 ## 📄 License
 
-MIT License - Gratis untuk digunakan
+MIT License - Free to use
 
 ---
 
-**Made with 💕 untuk Ine Maria**
+**Made with 💕 for Ine Maria**
 
-Kurikulum Jerman A1 14 hari yang easy dan fun! 🇩🇪
+14-day German A1 course that's easy and fun! 🇩🇪
