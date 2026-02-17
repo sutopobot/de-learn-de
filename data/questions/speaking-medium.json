@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1101,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to pay in a restaurant. What do you say?",
+    "options": ["Zahlen, bitte.", "Essen, bitte.", "Trinken, bitte.", "Gehen, bitte."],
+    "correctAnswer": "Zahlen, bitte.",
+    "explanation": "'Zahlen, bitte' means 'The bill, please'."
+  },
+  {
+    "id": 1102,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to know the time. What do you ask?",
+    "options": ["Wie spät ist es?", "Wann ist es?", "Wie viel Uhr hast du?", "Was ist die Zeit?"],
+    "correctAnswer": "Wie spät ist es?",
+    "explanation": "Standard way to ask the time."
+  },
+  {
+    "id": 1103,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You are introduce yourself in a formal way. What do you say?",
+    "options": ["Mein Name ist ...", "Ich bin der ...", "Hallo, ich!", "Name ist ..."],
+    "correctAnswer": "Mein Name ist ...",
+    "explanation": "'Mein Name ist...' is a formal/standard introduction."
+  },
+  {
+    "id": 1104,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to ask if a seat is free. What do you ask?",
+    "options": ["Ist hier noch frei?", "Wo ist der Stuhl?", "Wer sitzt hier?", "Kann ich sitzen?"],
+    "correctAnswer": "Ist hier noch frei?",
+    "explanation": "Standard phrase for asking if a seat is available."
+  },
+  {
+    "id": 1105,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: Someone asks 'Wie geht es Ihnen?'. What is a good response?",
+    "options": ["Gut, danke.", "Ich bin Peter.", "Aus Deutschland.", "Bitte."],
+    "correctAnswer": "Gut, danke.",
+    "explanation": "'Gut, danke' is a common reply to 'How are you?'"
+  },
+  {
+    "id": 1106,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to ask what someone does for work. What do you ask?",
+    "options": ["Was machst du beruflich?", "Wo arbeitest du?", "Wie arbeitest du?", "Warum arbeitest du?"],
+    "correctAnswer": "Was machst du beruflich?",
+    "explanation": "'Was machst du beruflich?' asks about profession."
+  },
+  {
+    "id": 1107,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to say you need a doctor. What do you say?",
+    "options": ["Ich brauche einen Arzt.", "Ich bin ein Arzt.", "Ich sehe einen Arzt.", "Ich kenne einen Arzt."],
+    "correctAnswer": "Ich brauche einen Arzt.",
+    "explanation": "'Ich brauche einen Arzt' means 'I need a doctor'."
+  },
+  {
+    "id": 1108,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to ask for a recommendation. What do you say?",
+    "options": ["Was empfehlen Sie?", "Was kostet das?", "Wo ist das?", "Wer sind Sie?"],
+    "correctAnswer": "Was empfehlen Sie?",
+    "explanation": "'Was empfehlen Sie?' means 'What do you recommend?'"
+  },
+  {
+    "id": 1109,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to say you're allergic to nuts. What do you say?",
+    "options": ["Ich mag Nüsse.", "Ich hasse Nüsse.", "Ich bin allergisch gegen Nüsse.", "Ich esse Nüsse."],
+    "correctAnswer": "Ich bin allergisch gegen Nüsse.",
+    "explanation": "'Ich bin allergisch gegen' means 'I'm allergic to'."
+  },
+  {
+    "id": 1110,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to ask how to get somewhere. What do you ask?",
+    "options": ["Wie komme ich zum Bahnhof?", "Wo ist der Bahnhof?", "Was ist der Bahnhof?", "Wer ist im Bahnhof?"],
+    "correctAnswer": "Wie komme ich zum Bahnhof?",
+    "explanation": "'Wie komme ich zu...' asks for directions."
+  },
+  {
+    "id": 1111,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to say you'll take something. What do you say?",
+    "options": ["Ich nehme das.", "Ich gebe das.", "Ich sehe das.", "Ich habe das."],
+    "correctAnswer": "Ich nehme das.",
+    "explanation": "'Ich nehme das' means 'I'll take that'."
+  },
+  {
+    "id": 1112,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to say you're looking for something. What do you say?",
+    "options": ["Ich suche...", "Ich finde...", "Ich habe...", "Ich sehe..."],
+    "correctAnswer": "Ich suche...",
+    "explanation": "'Ich suche' means 'I'm looking for'."
+  },
+  {
+    "id": 1113,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to ask when something opens. What do you ask?",
+    "options": ["Wann öffnet das?", "Wo öffnet das?", "Was öffnet das?", "Wer öffnet das?"],
+    "correctAnswer": "Wann öffnet das?",
+    "explanation": "'Wann' asks about time."
+  },
+  {
+    "id": 1114,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to say you have a reservation. What do you say?",
+    "options": ["Ich habe eine Reservierung.", "Ich brauche eine Reservierung.", "Ich mache eine Reservierung.", "Ich suche eine Reservierung."],
+    "correctAnswer": "Ich habe eine Reservierung.",
+    "explanation": "'Ich habe eine Reservierung' means 'I have a reservation'."
+  },
+  {
+    "id": 1115,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to say you don't feel well. What do you say?",
+    "options": ["Ich fühle mich gut.", "Ich fühle mich nicht gut.", "Ich bin gut.", "Ich bin nicht hier."],
+    "correctAnswer": "Ich fühle mich nicht gut.",
+    "explanation": "'Ich fühle mich nicht gut' means 'I don't feel well'."
+  },
+  {
+    "id": 1116,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to ask if something is included. What do you ask?",
+    "options": ["Ist das inklusive?", "Ist das exklusive?", "Ist das teuer?", "Ist das billig?"],
+    "correctAnswer": "Ist das inklusive?",
+    "explanation": "'Ist das inklusive?' means 'Is that included?'"
+  },
+  {
+    "id": 1117,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to say you agree. What do you say?",
+    "options": ["Ich stimme zu.", "Ich stimme nicht zu.", "Ich weiß nicht.", "Ich verstehe nicht."],
+    "correctAnswer": "Ich stimme zu.",
+    "explanation": "'Ich stimme zu' means 'I agree'."
+  },
+  {
+    "id": 1118,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to ask for the wifi password. What do you ask?",
+    "options": ["Wie ist das Passwort?", "Was ist das Passwort?", "Wie ist das WLAN-Passwort?", "Wo ist das Passwort?"],
+    "correctAnswer": "Wie ist das WLAN-Passwort?",
+    "explanation": "'WLAN-Passwort' means wifi password."
+  },
+  {
+    "id": 1119,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to say you need to go to the doctor. What do you say?",
+    "options": ["Ich will zum Arzt.", "Ich muss zum Arzt.", "Ich kann zum Arzt.", "Ich darf zum Arzt."],
+    "correctAnswer": "Ich muss zum Arzt.",
+    "explanation": "'Ich muss' expresses necessity (I must)."
+  },
+  {
+    "id": 1120,
+    "category": "speaking",
+    "difficulty": "medium",
+    "question": "Situation: You want to ask for a glass of water. What do you say?",
+    "options": ["Ein Glas Wasser, bitte.", "Eine Tasse Wasser, bitte.", "Eine Flasche Wasser, bitte.", "Ein Teller Wasser, bitte."],
+    "correctAnswer": "Ein Glas Wasser, bitte.",
+    "explanation": "'Ein Glas Wasser' is a glass of water."
+  }
+]

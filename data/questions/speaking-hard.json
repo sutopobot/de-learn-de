@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1201,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask about someone's hobby. What do you ask?",
+    "options": ["Was sind deine Hobbys?", "Was arbeitest du?", "Wo wohnst du?", "Wer bist du?"],
+    "correctAnswer": "Was sind deine Hobbys?",
+    "explanation": "Asking about hobbies."
+  },
+  {
+    "id": 1202,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask if someone speaks English. What do you ask?",
+    "options": ["Sprechen Sie Englisch?", "Sind Sie Englisch?", "Haben Sie Englisch?", "Wie ist Englisch?"],
+    "correctAnswer": "Sprechen Sie Englisch?",
+    "explanation": "Using 'sprechen' for languages."
+  },
+  {
+    "id": 1203,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You are in a bakery and want 3 bread rolls (Brötchen). What do you say?",
+    "options": ["Drei Brötchen, bitte.", "Drei Brot, bitte.", "Ich möchte essen.", "Haben Sie Brot?"],
+    "correctAnswer": "Drei Brötchen, bitte.",
+    "explanation": "Ordering specific items."
+  },
+  {
+    "id": 1204,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask where the toilet is. What do you ask?",
+    "options": ["Wo ist die Toilette?", "Was ist die Toilette?", "Haben Sie eine Toilette?", "Wo sind Sie?"],
+    "correctAnswer": "Wo ist die Toilette?",
+    "explanation": "Asking for the location of the restroom."
+  },
+  {
+    "id": 1205,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You meet someone for the first time. What polite phrase do you use?",
+    "options": ["Freut mich.", "Wie bitte?", "Guten Abend.", "Danke."],
+    "correctAnswer": "Freut mich.",
+    "explanation": "'Freut mich' means 'Pleased to meet you'."
+  },
+  {
+    "id": 1206,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to explain you have a food allergy in detail. What do you say?",
+    "options": ["Ich esse gerne.", "Ich bin allergisch und kann das nicht essen.", "Ich hasse das Essen.", "Ich habe kein Geld."],
+    "correctAnswer": "Ich bin allergisch und kann das nicht essen.",
+    "explanation": "Explaining an allergy clearly."
+  },
+  {
+    "id": 1207,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to make a complaint politely. What do you say?",
+    "options": ["Das ist schlecht!", "Entschuldigung, aber ich habe ein Problem.", "Ich bin wütend!", "Das ist falsch!"],
+    "correctAnswer": "Entschuldigung, aber ich habe ein Problem.",
+    "explanation": "Polite way to start a complaint."
+  },
+  {
+    "id": 1208,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask for directions to the hospital. What do you ask?",
+    "options": ["Wo ist das Krankenhaus?", "Was ist das Krankenhaus?", "Wer ist im Krankenhaus?", "Wann ist das Krankenhaus?"],
+    "correctAnswer": "Wo ist das Krankenhaus?",
+    "explanation": "Asking for hospital location."
+  },
+  {
+    "id": 1209,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to explain you're lost. What do you say?",
+    "options": ["Ich bin hier.", "Ich habe mich verlaufen.", "Ich gehe gerne spazieren.", "Ich kenne den Weg."],
+    "correctAnswer": "Ich habe mich verlaufen.",
+    "explanation": "'Ich habe mich verlaufen' means 'I'm lost'."
+  },
+  {
+    "id": 1210,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask when the next bus comes. What do you ask?",
+    "options": ["Wann kommt der nächste Bus?", "Wo kommt der Bus?", "Wer kommt im Bus?", "Was ist der Bus?"],
+    "correctAnswer": "Wann kommt der nächste Bus?",
+    "explanation": "Asking for bus schedule."
+  },
+  {
+    "id": 1211,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to say you need to make an appointment. What do you say?",
+    "options": ["Ich brauche einen Termin.", "Ich habe einen Termin.", "Ich mache einen Termin.", "Ich suche einen Termin."],
+    "correctAnswer": "Ich brauche einen Termin.",
+    "explanation": "'Ich brauche einen Termin' means 'I need an appointment'."
+  },
+  {
+    "id": 1212,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask if you can pay by card. What do you ask?",
+    "options": ["Kann ich bar zahlen?", "Kann ich mit Karte zahlen?", "Kann ich später zahlen?", "Kann ich nicht zahlen?"],
+    "correctAnswer": "Kann ich mit Karte zahlen?",
+    "explanation": "'Mit Karte zahlen' means to pay by card."
+  },
+  {
+    "id": 1213,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to say you don't understand and need help. What do you say?",
+    "options": ["Ich verstehe alles.", "Ich verstehe nicht. Können Sie mir helfen?", "Ich spreche Deutsch.", "Ich brauche nichts."],
+    "correctAnswer": "Ich verstehe nicht. Können Sie mir helfen?",
+    "explanation": "Clear request for help when confused."
+  },
+  {
+    "id": 1214,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask about opening hours. What do you ask?",
+    "options": ["Wann haben Sie geöffnet?", "Wo haben Sie geöffnet?", "Was haben Sie geöffnet?", "Wer hat geöffnet?"],
+    "correctAnswer": "Wann haben Sie geöffnet?",
+    "explanation": "'Wann haben Sie geöffnet?' asks for opening hours."
+  },
+  {
+    "id": 1215,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to say you'd like to try something on. What do you say?",
+    "options": ["Kann ich das anprobieren?", "Kann ich das kaufen?", "Kann ich das sehen?", "Kann ich das haben?"],
+    "correctAnswer": "Kann ich das anprobieren?",
+    "explanation": "'Anprobieren' means to try on (clothes)."
+  },
+  {
+    "id": 1216,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to explain you have an emergency. What do you say?",
+    "options": ["Es ist ein Notfall.", "Es ist gut.", "Es ist normal.", "Es ist langweilig."],
+    "correctAnswer": "Es ist ein Notfall.",
+    "explanation": "'Es ist ein Notfall' means 'It's an emergency'."
+  },
+  {
+    "id": 1217,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask for a different size. What do you ask?",
+    "options": ["Haben Sie das in einer anderen Größe?", "Haben Sie das in einer anderen Farbe?", "Haben Sie das billiger?", "Haben Sie das nicht?"],
+    "correctAnswer": "Haben Sie das in einer anderen Größe?",
+    "explanation": "'Größe' means size."
+  },
+  {
+    "id": 1218,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to say you're vegetarian. What do you say?",
+    "options": ["Ich esse Fleisch.", "Ich bin Vegetarier.", "Ich esse Fisch.", "Ich esse alles."],
+    "correctAnswer": "Ich bin Vegetarier.",
+    "explanation": "'Ich bin Vegetarier' means 'I'm a vegetarian'."
+  },
+  {
+    "id": 1219,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to ask if the hotel has a swimming pool. What do you ask?",
+    "options": ["Haben Sie einen Swimmingpool?", "Haben Sie ein Restaurant?", "Haben Sie ein Zimmer?", "Haben Sie Frühstück?"],
+    "correctAnswer": "Haben Sie einen Swimmingpool?",
+    "explanation": "'Swimmingpool' or 'Schwimmbad' means swimming pool."
+  },
+  {
+    "id": 1220,
+    "category": "speaking",
+    "difficulty": "hard",
+    "question": "Situation: You want to say you have a meeting at 3 PM. What do you say?",
+    "options": ["Ich habe einen Termin um 15 Uhr.", "Ich habe eine Party um 15 Uhr.", "Ich gehe ins Kino um 15 Uhr.", "Ich schlafe um 15 Uhr."],
+    "correctAnswer": "Ich habe einen Termin um 15 Uhr.",
+    "explanation": "'Einen Termin haben' means to have an appointment."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 201,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Können Sie das bitte wiederholen?' Was möchte die Person?",
+    "options": ["A repeat", "A drink", "A bill", "A map"],
+    "correctAnswer": "A repeat",
+    "explanation": "'Wiederholen' means to repeat."
+  },
+  {
+    "id": 202,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich möchte ein Schnitzel mit Pommes.' Was isst die Person?",
+    "options": ["Pizza", "Schnitzel", "Salat", "Suppe"],
+    "correctAnswer": "Schnitzel",
+    "explanation": "The person ordered 'Schnitzel'."
+  },
+  {
+    "id": 203,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Der Zug kommt um 14:30 Uhr an.' Wann kommt der Zug?",
+    "options": ["14:00", "14:15", "14:30", "14:45"],
+    "correctAnswer": "14:30",
+    "explanation": "'Vierzehn Uhr dreißig' is 14:30."
+  },
+  {
+    "id": 204,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich arbeite als Lehrer.' Was ist sein Beruf?",
+    "options": ["Arzt", "Lehrer", "Koch", "Kellner"],
+    "correctAnswer": "Lehrer",
+    "explanation": "'Lehrer' means teacher."
+  },
+  {
+    "id": 205,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Die Apotheke ist links.' Wo ist die Apotheke?",
+    "options": ["Rechts", "Links", "Geradeaus", "Hinter dem Haus"],
+    "correctAnswer": "Links",
+    "explanation": "'Links' means left."
+  },
+  {
+    "id": 206,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich stehe um sieben Uhr auf.' Wann steht die Person auf?",
+    "options": ["Um 6 Uhr", "Um 7 Uhr", "Um 8 Uhr", "Um 9 Uhr"],
+    "correctAnswer": "Um 7 Uhr",
+    "explanation": "'Sieben Uhr' is 7:00."
+  },
+  {
+    "id": 207,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Meine Mutter kocht gern italienisch.' Was kocht die Mutter gern?",
+    "options": ["Deutsches Essen", "Italienisches Essen", "Chinesisches Essen", "Französisches Essen"],
+    "correctAnswer": "Italienisches Essen",
+    "explanation": "'Italienisch' means Italian."
+  },
+  {
+    "id": 208,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Der Termin ist am Dienstag.' Wann ist der Termin?",
+    "options": ["Montag", "Dienstag", "Mittwoch", "Donnerstag"],
+    "correctAnswer": "Dienstag",
+    "explanation": "'Dienstag' is Tuesday."
+  },
+  {
+    "id": 209,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich fahre in den Urlaub nach Spanien.' Wohin fährt die Person in den Urlaub?",
+    "options": ["Nach Italien", "Nach Frankreich", "Nach Spanien", "Nach Portugal"],
+    "correctAnswer": "Nach Spanien",
+    "explanation": "'Spanien' is Spain."
+  },
+  {
+    "id": 210,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Das Hemd kostet 29,99 Euro.' Wie viel kostet das Hemd?",
+    "options": ["19,99 €", "29,99 €", "39,99 €", "49,99 €"],
+    "correctAnswer": "29,99 €",
+    "explanation": "The shirt costs 29.99 euros."
+  },
+  {
+    "id": 211,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich habe eine Reservierung für zwei Personen.' Für wie viele Personen ist die Reservierung?",
+    "options": ["Eine Person", "Zwei Personen", "Drei Personen", "Vier Personen"],
+    "correctAnswer": "Zwei Personen",
+    "explanation": "'Zwei Personen' means two people."
+  },
+  {
+    "id": 212,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Mein Bruder spielt Fußball.' Was spielt der Bruder?",
+    "options": ["Tennis", "Basketball", "Fußball", "Handball"],
+    "correctAnswer": "Fußball",
+    "explanation": "'Fußball' means soccer/football."
+  },
+  {
+    "id": 213,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich möchte ein Einzelzimmer buchen.' Was möchte die Person buchen?",
+    "options": ["Ein Doppelzimmer", "Ein Einzelzimmer", "Ein Familienzimmer", "Eine Suite"],
+    "correctAnswer": "Ein Einzelzimmer",
+    "explanation": "'Einzelzimmer' means single room."
+  },
+  {
+    "id": 214,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Der Bus fährt alle zehn Minuten.' Wie oft fährt der Bus?",
+    "options": ["Alle fünf Minuten", "Alle zehn Minuten", "Alle fünfzehn Minuten", "Alle zwanzig Minuten"],
+    "correctAnswer": "Alle zehn Minuten",
+    "explanation": "'Alle zehn Minuten' means every ten minutes."
+  },
+  {
+    "id": 215,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich nehme den Salat mit Hähnchen.' Was bestellt die Person?",
+    "options": ["Nur Salat", "Salat mit Thunfisch", "Salat mit Hähnchen", "Nur Hähnchen"],
+    "correctAnswer": "Salat mit Hähnchen",
+    "explanation": "'Mit Hähnchen' means with chicken."
+  },
+  {
+    "id": 216,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Mein Geburtstag ist im März.' Wann ist der Geburtstag?",
+    "options": ["Im Februar", "Im März", "Im April", "Im Mai"],
+    "correctAnswer": "Im März",
+    "explanation": "'März' is March."
+  },
+  {
+    "id": 217,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich arbeite bei einer Bank.' Wo arbeitet die Person?",
+    "options": ["In einer Schule", "In einem Krankenhaus", "Bei einer Bank", "In einem Restaurant"],
+    "correctAnswer": "Bei einer Bank",
+    "explanation": "'Bank' means bank."
+  },
+  {
+    "id": 218,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Das Paket wiegt zwei Kilogramm.' Wie schwer ist das Paket?",
+    "options": ["Ein Kilogramm", "Zwei Kilogramm", "Drei Kilogramm", "Vier Kilogramm"],
+    "correctAnswer": "Zwei Kilogramm",
+    "explanation": "'Zwei Kilogramm' means two kilograms."
+  },
+  {
+    "id": 219,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Ich fahre mit der U-Bahn zur Arbeit.' Womit fährt die Person zur Arbeit?",
+    "options": ["Mit dem Bus", "Mit der U-Bahn", "Mit dem Taxi", "Mit dem Fahrrad"],
+    "correctAnswer": "Mit der U-Bahn",
+    "explanation": "'U-Bahn' means subway/underground."
+  },
+  {
+    "id": 220,
+    "category": "listening",
+    "difficulty": "medium",
+    "question": "Hören Sie: 'Das Konzert beginnt um 20 Uhr.' Wann beginnt das Konzert?",
+    "options": ["Um 18 Uhr", "Um 19 Uhr", "Um 20 Uhr", "Um 21 Uhr"],
+    "correctAnswer": "Um 20 Uhr",
+    "explanation": "'Zwanzig Uhr' is 8:00 PM."
+  }
+]

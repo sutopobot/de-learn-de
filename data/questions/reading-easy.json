@@ -1,0 +1,272 @@
+[
+  {
+    "id": 401,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Lesen Sie: 'Bäckerei Schmidt - Geöffnet 07:00 bis 18:00'. Wann schließt die Bäckerei?",
+    "options": ["07:00", "12:00", "18:00", "20:00"],
+    "correctAnswer": "18:00",
+    "explanation": "'Bis 18:00' means until 18:00 (closing time)."
+  },
+  {
+    "id": 402,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Ein Schild sagt: 'Eingang'. Was bedeutet das?",
+    "options": ["Exit", "Entrance", "Open", "Closed"],
+    "correctAnswer": "Entrance",
+    "explanation": "'Eingang' means entrance."
+  },
+  {
+    "id": 403,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "In einer E-Mail steht: 'Liebe Maria, alles Gute zum Geburtstag!' Warum schreibt die Person?",
+    "options": ["To invite her", "To thank her", "To congratulate her", "To say goodbye"],
+    "correctAnswer": "To congratulate her",
+    "explanation": "'Alles Gute zum Geburtstag' is a birthday wish."
+  },
+  {
+    "id": 404,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Auf der Speisekarte: 'Tagessuppe: Tomatensuppe 3,50 €'. Was ist die Suppe des Tages?",
+    "options": ["Kartoffelsuppe", "Tomatensuppe", "Zwiebelsuppe", "Fischsuppe"],
+    "correctAnswer": "Tomatensuppe",
+    "explanation": "The text says 'Tomatensuppe'."
+  },
+  {
+    "id": 405,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Lesen Sie: 'Nicht rauchen!' Wo darf man das nicht?",
+    "options": ["Eat", "Smoke", "Run", "Talk"],
+    "correctAnswer": "Smoke",
+    "explanation": "'Rauchen' means to smoke; 'Nicht rauchen' means no smoking."
+  },
+  {
+    "id": 406,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Ein Schild im Zug: 'Reserviert'. Was bedeutet das?",
+    "options": ["Free", "Occupied/Reserved", "Broken", "Cleaning"],
+    "correctAnswer": "Occupied/Reserved",
+    "explanation": "'Reserviert' means reserved."
+  },
+  {
+    "id": 407,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "In der Zeitung: 'Wetter morgen: 20 Grad, Regen'. Wie wird das Wetter?",
+    "options": ["Heiß und trocken", "Kalt und Schnee", "20 Grad und Regen", "Sonnig"],
+    "correctAnswer": "20 Grad und Regen",
+    "explanation": "The text states '20 Grad, Regen'."
+  },
+  {
+    "id": 408,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Eine SMS: 'Bin im Supermarkt. Brauchst du Brot?' Was möchte die Person wissen?",
+    "options": ["If you need milk", "If you need bread", "If you are at home", "If you are hungry"],
+    "correctAnswer": "If you need bread",
+    "explanation": "'Brot' means bread."
+  },
+  {
+    "id": 409,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Privat'. Darf man hier eintreten?",
+    "options": ["Ja, immer", "Ja, für Gäste", "Nein, es ist privat", "Nur am Montag"],
+    "correctAnswer": "Nein, es ist privat",
+    "explanation": "'Privat' means private."
+  },
+  {
+    "id": 410,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Notiz: 'Milch ist im Kühlschrank'. Wo ist die Milch?",
+    "options": ["Auf dem Tisch", "Im Schrank", "Im Kühlschrank", "Im Supermarkt"],
+    "correctAnswer": "Im Kühlschrank",
+    "explanation": "'Kühlschrank' means refrigerator."
+  },
+  {
+    "id": 411,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Ausgang'. Was bedeutet das?",
+    "options": ["Entrance", "Exit", "Emergency", "Information"],
+    "correctAnswer": "Exit",
+    "explanation": "'Ausgang' means exit."
+  },
+  {
+    "id": 412,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Anzeige: 'Wohnung zu vermieten'. Was wird angeboten?",
+    "options": ["An apartment for rent", "A house for sale", "A job", "A car"],
+    "correctAnswer": "An apartment for rent",
+    "explanation": "'Zu vermieten' means for rent."
+  },
+  {
+    "id": 413,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Menü: 'Hauptgericht: Hähnchen mit Reis'. Was ist das Hauptgericht?",
+    "options": ["Salat", "Hähnchen mit Reis", "Suppe", "Dessert"],
+    "correctAnswer": "Hähnchen mit Reis",
+    "explanation": "'Hähnchen mit Reis' means chicken with rice."
+  },
+  {
+    "id": 414,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Toilette'. Was bedeutet das?",
+    "options": ["Kitchen", "Bathroom/Toilet", "Bedroom", "Living room"],
+    "correctAnswer": "Bathroom/Toilet",
+    "explanation": "'Toilette' means toilet/restroom."
+  },
+  {
+    "id": 415,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "E-Mail: 'Treffen um 10 Uhr im Büro'. Wo ist das Treffen?",
+    "options": ["Zu Hause", "Im Büro", "Im Park", "Im Restaurant"],
+    "correctAnswer": "Im Büro",
+    "explanation": "'Im Büro' means in the office."
+  },
+  {
+    "id": 416,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Geschlossen'. Ist der Laden offen?",
+    "options": ["Ja", "Nein", "Vielleicht", "Unbekannt"],
+    "correctAnswer": "Nein",
+    "explanation": "'Geschlossen' means closed."
+  },
+  {
+    "id": 417,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "SMS: 'Ich komme um 15 Uhr an'. Wann kommt die Person an?",
+    "options": ["Um 13 Uhr", "Um 14 Uhr", "Um 15 Uhr", "Um 16 Uhr"],
+    "correctAnswer": "Um 15 Uhr",
+    "explanation": "'Um 15 Uhr' means at 3 PM."
+  },
+  {
+    "id": 418,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Anzeige: 'Zimmer frei ab sofort'. Ab wann ist das Zimmer frei?",
+    "options": ["Ab morgen", "Ab nächste Woche", "Ab sofort", "Ab nächsten Monat"],
+    "correctAnswer": "Ab sofort",
+    "explanation": "'Ab sofort' means available immediately."
+  },
+  {
+    "id": 419,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Achtung!' Was bedeutet das?",
+    "options": ["Attention/Caution", "Welcome", "Goodbye", "Thank you"],
+    "correctAnswer": "Attention/Caution",
+    "explanation": "'Achtung' means attention or caution."
+  },
+  {
+    "id": 420,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Einkaufsliste: 'Äpfel, Bananen, Milch'. Was steht auf der Liste?",
+    "options": ["Obst und Gemüse", "Obst und Milch", "Nur Gemüse", "Nur Milch"],
+    "correctAnswer": "Obst und Milch",
+    "explanation": "Äpfel and Bananen are fruits, Milch is milk."
+  },
+  {
+    "id": 421,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Notausgang'. Was bedeutet das?",
+    "options": ["Emergency exit", "Main entrance", "Staff only", "Elevator"],
+    "correctAnswer": "Emergency exit",
+    "explanation": "'Notausgang' means emergency exit."
+  },
+  {
+    "id": 422,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Preisschild: 'Angebot: 2 für 1'. Was bedeutet das?",
+    "options": ["Zwei Produkte für den Preis von einem", "Einer für zwei", "Doppelter Preis", "Halber Preis"],
+    "correctAnswer": "Zwei Produkte für den Preis von einem",
+    "explanation": "'2 für 1' means buy one get one free."
+  },
+  {
+    "id": 423,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Ruhe bitte!' Was soll man tun?",
+    "options": ["Laut sprechen", "Still sein", "Schnell gehen", "Singen"],
+    "correctAnswer": "Still sein",
+    "explanation": "'Ruhe' means quiet/silence."
+  },
+  {
+    "id": 424,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Öffnungszeiten: 'Mo-Fr 9-18 Uhr'. An welchen Tagen ist geöffnet?",
+    "options": ["Nur Montag", "Montag bis Freitag", "Am Wochenende", "Jeden Tag"],
+    "correctAnswer": "Montag bis Freitag",
+    "explanation": "'Mo-Fr' means Monday to Friday."
+  },
+  {
+    "id": 425,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Nur für Mitglieder'. Wer darf hereinkommen?",
+    "options": ["Jeder", "Nur Mitglieder", "Nur Gäste", "Nur Kinder"],
+    "correctAnswer": "Nur Mitglieder",
+    "explanation": "'Nur für Mitglieder' means members only."
+  },
+  {
+    "id": 426,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Ticket: 'Erwachsene: 10 Euro, Kinder: 5 Euro'. Was kostet ein Kinderticket?",
+    "options": ["10 Euro", "5 Euro", "15 Euro", "Kostenlos"],
+    "correctAnswer": "5 Euro",
+    "explanation": "'Kinder: 5 Euro' means children pay 5 euros."
+  },
+  {
+    "id": 427,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Parken verboten'. Darf man hier parken?",
+    "options": ["Ja", "Nein", "Nur kurz", "Nur am Wochenende"],
+    "correctAnswer": "Nein",
+    "explanation": "'Verboten' means forbidden."
+  },
+  {
+    "id": 428,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Brief: 'Liebe Grüße, Maria'. Wer schreibt den Brief?",
+    "options": ["Maria", "Ein unbekannter Absender", "Der Empfänger", "Ein Freund"],
+    "correctAnswer": "Maria",
+    "explanation": "Maria is the sender."
+  },
+  {
+    "id": 429,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Anzeige: 'Verkaufe altes Fahrrad'. Was wird verkauft?",
+    "options": ["Ein neues Fahrrad", "Ein altes Fahrrad", "Ein Auto", "Ein Motorrad"],
+    "correctAnswer": "Ein altes Fahrrad",
+    "explanation": "'Altes Fahrrad' means old bicycle."
+  },
+  {
+    "id": 430,
+    "category": "reading",
+    "difficulty": "easy",
+    "question": "Schild: 'Aufzug'. Was bedeutet das?",
+    "options": ["Stairs", "Elevator", "Exit", "Entrance"],
+    "correctAnswer": "Elevator",
+    "explanation": "'Aufzug' means elevator/lift."
+  }
+]

@@ -14,16 +14,55 @@ Ine Maria's German A1 course dashboard. A 14-day interactive course that's mobil
 
 ## ✨ Features
 
+### 🆕 NEW in v1.1.0
+- **Quiz System v2** - 3 modes: Learn (5Q), Practice (10Q), Test (15Q)
+- **Sequential Quiz Flow** - Question-by-question with immediate feedback
+- **Timer System** - Exam simulation with countdown warnings
+- **280 Questions** - Expanded from 80, covering 13 Goethe A1 topics
+- **Learning Section** - TTS, Gender/Artikel trainer, 40 phrases, pronunciation tips
+- **Color-Coded Gender** - Blue (der), Red (die), Green (das)
+- **Progress Tracking** - "Mark as learned" functionality
+
+### Core Features
 - **14-Day A1 Curriculum** - Daily quiz sessions: Hören (Listening) & Lesen (Reading)
-- **Interactive Quiz System** - 5 questions per session, one-by-one navigation, instant feedback
-- **Hearts System** - 3 lives per day, lose 1 on failure, can use tomorrow's hearts
-- **Text-to-Speech** - German audio for listening exercises using browser TTS
-- **Progressive Difficulty** - Easy (Days 1-4) → Medium (Days 5-8) → Hard (Days 9-14)
-- **Progress Locked** - Must finish Hören before Lesen unlocks, complete both for next day
+- **3 Quiz Modes** - Learn (no pressure), Practice (timed option), Test (exam simulation)
+- **Hearts System** - 3 lives per day, lose 1 on failure
+- **Text-to-Speech** - German audio with slow mode for beginners
+- **Progressive Difficulty** - Easy → Medium → Hard
 - **Streak Counter** - Tracks consecutive learning days
-- **80 A1 Questions** - Question bank with random selection and replacement
-- **Mobile-First Design** - Optimized for Ine's phone
-- **Progress Saved** - Automatically saved to browser (won't lose progress on refresh)
+- **Mobile-First Design** - Optimized for phones
+- **Progress Saved** - localStorage persistence
+
+---
+
+## 📚 Documentation
+
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history & what's new
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Technical documentation & code structure
+- **[USER_GUIDE.md](USER_GUIDE.md)** - How to use the app effectively
+- **[TEST_REPORT.md](TEST_REPORT.md)** - Build status & testing results
+
+---
+
+## 🎓 Quiz Modes Explained
+
+### Learn Mode 💡 (5 Questions)
+- **Best for:** First-time learning
+- **Timer:** None - take your time
+- **Feedback:** Immediate with explanation
+- **Hearts:** Not used
+
+### Practice Mode 📝 (10 Questions)
+- **Best for:** Reinforcing knowledge
+- **Timer:** Optional 30-minute limit
+- **Feedback:** Immediate with explanation
+- **Hearts:** 3 lives
+
+### Test Mode 🧪 (15 Questions)
+- **Best for:** Exam simulation
+- **Timer:** Strict 25-minute limit
+- **Feedback:** At the end only
+- **Pass/Fail:** 60% to pass (like real Goethe exam)
 
 ---
 
@@ -74,26 +113,28 @@ vercel
 
 ## 🎯 How to Use
 
-1. **Open the link** - Ine opens the website on her phone
-2. **Pick Day 1** - Always unlocked
-3. **Check Hearts** - You have 5 ❤️ per day
-4. **Start Hören** - Click to begin listening quiz (5 questions, TTS audio)
-5. **Answer Questions** - One-by-one navigation, choose from 4 options
-6. **Submit** - After answering all 5 questions
-7. **Results** - Need ≥4 correct (80%) to pass:
-   - **Pass**: Proceed to Lesen session
-   - **Fail**: Lose 1 ❤️, retry with new random questions (if ❤️ > 0)
-8. **Out of Hearts?** - Use "Gunakan ❤️ Besok" to borrow from tomorrow
-9. **Complete Lesen** - Same process for reading quiz
-10. **Auto-Progress** - Complete both sessions to unlock tomorrow
+### Learning Path
 
-### Quiz Rules
-- **Threshold**: Minimum 4/5 correct answers (80%) to pass
-- **Random Questions**: Different questions each attempt (with replacement)
-- **Difficulty Progression**:
-  - Days 1-4: Easy
-  - Days 5-8: Medium
-  - Days 9-14: Hard
+1. **Open `/learn`** - Explore vocabulary, gender trainer, phrases
+2. **Practice with Learn Mode** - No pressure, learn at your pace
+3. **Test with Practice Mode** - Build confidence with 10 questions
+4. **Simulate with Test Mode** - Real exam experience (15 questions, 25 min)
+5. **Track Progress** - Build streaks, master gender articles
+
+### Daily Quiz Flow
+
+1. **Check Hearts** - You have 3 ❤️ per day
+2. **Choose Quiz Mode** - Learn, Practice, or Test
+3. **Select Category** - Hören (Listening) or Lesen (Reading)
+4. **Answer Questions** - Sequential flow with feedback
+5. **Review Results** - See score, explanations, pass/fail status
+
+### Learning Section Features
+
+- **🔊 Text-to-Speech** - Click to hear German pronunciation
+- **🐢 Slow Mode** - Toggle for beginners
+- **🎨 Gender Colors** - Blue (der), Red (die), Green (das)
+- **📊 Progress Tracking** - Mark items as learned
 
 ---
 
@@ -104,36 +145,41 @@ vercel
 | Next.js 16.1.6 | React framework |
 | TypeScript | Type safety |
 | Tailwind CSS 4 | Styling |
+| shadcn/ui | UI components |
 | Local Storage | Progress persistence |
-| Playwright | Testing & screenshots |
+| Web Speech API | Text-to-Speech |
+| Playwright | E2E testing |
 
 ---
 
 ## 🎮 Quiz System
 
 ### Sessions
-- **Hören (Listening)**: 5 questions with Text-to-Speech audio
-- **Lesen (Reading)**: 5 text-based questions
+- **Hören (Listening)**: 70 questions across 3 difficulties
+- **Lesen (Reading)**: 70 questions across 3 difficulties
+- **Schreiben (Writing)**: 70 questions (v2)
+- **Sprechen (Speaking)**: 70 questions (v2)
 
 ### Hearts System
-- Start each day with **5 ❤️**
-- Lose **1 ❤️** when failing a quiz (>2 wrong answers)
-- Lose **1 ❤️** to reveal text in listening questions (optional)
+- Start each day with **3 ❤️**
+- Lose **1 ❤️** when failing a quiz (>2 wrong answers in Practice/Test mode)
 - **❤️ = 0**: Cannot attempt more quizzes today
-- **Borrow Hearts**: Use "Gunakan ❤️ Besok" to borrow from tomorrow (tomorrow starts with 0 ❤️)
-- **Daily Reset**: Hearts reset to 5 at midnight
+- **Daily Reset**: Hearts reset to 3 at midnight
+- **Learn Mode**: Does not use hearts (safe practice!)
 
 ### Question Bank
-- **Total**: 80 questions
-  - Listening: 20 questions (10 easy, 5 medium, 5 hard)
-  - Reading: 20 questions (10 easy, 5 medium, 5 hard)
-  - Writing: 20 questions (not used in quiz)
-  - Speaking: 20 questions (not used in quiz)
-- **Selection**: Random with replacement (questions can repeat)
+- **Total**: 280 questions (expanded from 80)
+- **Split by Category + Difficulty**:
+  - Easy: 30 questions per category
+  - Medium: 20 questions per category
+  - Hard: 20 questions per category
+- **13 Goethe A1 Topics** covered
+- **Lazy Loading**: Questions loaded on-demand by category
 
 ### Text-to-Speech (TTS)
 - Uses browser's Web Speech API
 - Language: German (de-DE)
+- **Slow Mode**: Turtle 🐢 / Rabbit 🐇 toggle
 - Requires browser support (Chrome/Edge recommended)
 - Fallback: Shows error message if TTS unavailable
 
@@ -214,31 +260,31 @@ npm start
 
 ```
 de-learn-de/
+├── data/
+│   └── questions/              # Split JSON files (280 questions)
 ├── src/
 │   ├── app/
-│   │   ├── page.tsx                # Main dashboard
-│   │   ├── layout.tsx              # Root layout
-│   │   ├── context/
-│   │   │   └── ProgressContext.tsx # Progress & hearts logic
-│   │   ├── day/
-│   │   │   └── [id]/
-│   │   │       ├── page.tsx        # Daily sessions (Hören/Lesen)
-│   │   │       └── quiz/
-│   │   │           └── page.tsx    # Quiz interface
-│   │   ├── components/
-│   │   │   ├── BottomNav.tsx       # Bottom navigation
-│   │   │   ├── HeartsIndicator.tsx # Hearts display
-│   │   │   ├── QuizCard.tsx        # Question card
-│   │   │   └── TTSAudio.tsx        # Text-to-speech button
-│   │   └── globals.css             # Theme colors
-│   ├── components/                 # Shared components
-│   ├── data/
-│   │   ├── questions.json          # Question bank (80 questions)
-│   │   └── questions.ts            # Types & quiz utilities
-│   └── lib/
-│       └── quiz.ts                 # Quiz logic functions
-├── Dockerfile                      # Container config
-├── package.json
+│   │   ├── page.tsx            # Main dashboard
+│   │   ├── learn/
+│   │   │   └── page.tsx        # Learning section (TTS, Gender, Phrases)
+│   │   └── quiz/
+│   │       ├── page.tsx        # Quiz v2 entry
+│   │       └── QuizPageClient.tsx
+│   ├── components/
+│   │   ├── QuizContainerV2.tsx # Quiz v2 logic
+│   │   ├── ModeSelector.tsx    # Learn/Practice/Test selector
+│   │   ├── Timer.tsx           # Countdown timer
+│   │   ├── QuestionCard.tsx    # Sequential question card
+│   │   ├── QuizResults.tsx     # Results summary
+│   │   ├── TTSLearningButton.tsx # TTS for learning
+│   │   └── GenderNounCard.tsx  # Gender trainer
+│   └── data/
+│       ├── questions.ts        # Lazy loading logic
+│       └── learning-content.ts # Learning materials
+├── e2e/                        # Playwright tests
+├── CHANGELOG.md                # Version history
+├── ARCHITECTURE.md             # Technical docs
+├── USER_GUIDE.md               # User documentation
 └── README.md
 ```
 
@@ -261,16 +307,27 @@ MIT License - Free to use
 
 ## 📝 TODO / Future Development
 
-- [ ] **Expand Question Bank**: Add 50+ questions per category per difficulty level
-- [ ] **Audio Files**: Replace TTS with high-quality static audio files
+### ✅ Completed in v1.1.0
+- [x] **Expand Question Bank**: 280 questions (was 80)
+- [x] **Timer System**: Added to Test mode
+- [x] **Sequential Quiz**: Question-by-question with feedback
+- [x] **Learning Section**: TTS, Gender trainer, Phrases
+- [x] **Quiz Modes**: Learn, Practice, Test
+
+### 🚧 Planned for v1.2.0
+- [ ] **Audio Files**: Replace TTS with high-quality static audio
 - [ ] **No Replacement**: Track question history to avoid repetition
-- [ ] **Animations**: Add sound effects and smooth animations for quiz interactions
-- [ ] **Timer**: Add time limit per question or per session
-- [ ] **Hint System**: Add hints for difficult questions (costs 0.5 ❤️)
-- [ ] **Leaderboard**: Compare progress with other learners
-- [ ] **Offline Mode**: PWA support for learning without internet
-- [ ] **Dark Mode**: German flag inspired dark theme
-- [ ] **Export Progress**: Download progress as PDF/certificate
+- [ ] **Writing Section**: Text input with AI grading
+- [ ] **Speaking Section**: Audio recording with feedback
+- [ ] **Animations**: Sound effects and smooth transitions
+- [ ] **Hint System**: Hints for difficult questions
+
+### 💡 Future Ideas
+- [ ] **Leaderboard**: Compare progress with others
+- [ ] **Offline Mode**: PWA support
+- [ ] **Dark Mode**: German flag inspired theme
+- [ ] **Export Progress**: PDF/certificate
+- [ ] **Goethe A2**: Next level content
 
 ---
 

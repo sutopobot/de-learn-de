@@ -1,0 +1,272 @@
+[
+  {
+    "id": 101,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Hallo, ich heiße Markus.' Wie ist sein Name?",
+    "options": ["Markus", "Marius", "Martin", "Mario"],
+    "correctAnswer": "Markus",
+    "explanation": "The person introduces himself as Markus."
+  },
+  {
+    "id": 102,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich komme aus Berlin.' Woher kommt er?",
+    "options": ["München", "Hamburg", "Berlin", "Wien"],
+    "correctAnswer": "Berlin",
+    "explanation": "'Berlin' is clearly stated as the origin."
+  },
+  {
+    "id": 103,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Wie geht es dir?' Was bedeutet das?",
+    "options": ["How are you?", "Where are you?", "Who are you?", "What is that?"],
+    "correctAnswer": "How are you?",
+    "explanation": "'Wie geht es dir?' is the standard way to ask 'How are you?'"
+  },
+  {
+    "id": 104,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Zwei Kaffee, bitte.' Was bestellt die Person?",
+    "options": ["Two teas", "Two coffees", "Two waters", "Two juices"],
+    "correctAnswer": "Two coffees",
+    "explanation": "'Zwei Kaffee' means two coffees."
+  },
+  {
+    "id": 105,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Es ist acht Uhr.' Wie spät ist es?",
+    "options": ["7:00", "8:00", "9:00", "10:00"],
+    "correctAnswer": "8:00",
+    "explanation": "'Acht Uhr' means 8:00."
+  },
+  {
+    "id": 106,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich bin vierundzwanzig Jahre alt.' Wie alt ist er?",
+    "options": ["14", "24", "34", "42"],
+    "correctAnswer": "24",
+    "explanation": "'Vierundzwanzig' is 24."
+  },
+  {
+    "id": 107,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Die Milch kostet einen Euro.' Wie viel kostet die Milch?",
+    "options": ["0.50 €", "1.00 €", "1.50 €", "2.00 €"],
+    "correctAnswer": "1.00 €",
+    "explanation": "'Einen Euro' means 1.00 €."
+  },
+  {
+    "id": 108,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich habe zwei Schwestern.' Wie viele Geschwister hat er?",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": "2",
+    "explanation": "'Zwei Schwestern' means two sisters."
+  },
+  {
+    "id": 109,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Wir gehen ins Kino.' Wohin gehen sie?",
+    "options": ["Park", "Kino", "Restaurant", "Schule"],
+    "correctAnswer": "Kino",
+    "explanation": "'Kino' means cinema."
+  },
+  {
+    "id": 110,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Mein Hobby ist Schwimmen.' Was macht er gern?",
+    "options": ["Laufen", "Lesen", "Schwimmen", "Singen"],
+    "correctAnswer": "Schwimmen",
+    "explanation": "'Schwimmen' means swimming."
+  },
+  {
+    "id": 111,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich spreche Deutsch und Englisch.' Welche Sprachen spricht die Person?",
+    "options": ["Deutsch und Französisch", "Englisch und Spanisch", "Deutsch und Englisch", "Italienisch und Deutsch"],
+    "correctAnswer": "Deutsch und Englisch",
+    "explanation": "The person speaks German and English."
+  },
+  {
+    "id": 112,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Das ist meine Mutter.' Wer ist das?",
+    "options": ["Der Vater", "Die Mutter", "Der Bruder", "Die Schwester"],
+    "correctAnswer": "Die Mutter",
+    "explanation": "'Mutter' means mother."
+  },
+  {
+    "id": 113,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich wohne in München.' Wo wohnt die Person?",
+    "options": ["Berlin", "Hamburg", "München", "Köln"],
+    "correctAnswer": "München",
+    "explanation": "'München' is Munich."
+  },
+  {
+    "id": 114,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich trinke gern Wasser.' Was trinkt die Person gern?",
+    "options": ["Kaffee", "Tee", "Wasser", "Saft"],
+    "correctAnswer": "Wasser",
+    "explanation": "'Wasser' means water."
+  },
+  {
+    "id": 115,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Heute ist Montag.' Welcher Tag ist heute?",
+    "options": ["Sonntag", "Montag", "Dienstag", "Mittwoch"],
+    "correctAnswer": "Montag",
+    "explanation": "'Montag' is Monday."
+  },
+  {
+    "id": 116,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Das ist ein Apfel.' Was ist das?",
+    "options": ["Eine Banane", "Ein Apfel", "Eine Orange", "Eine Birne"],
+    "correctAnswer": "Ein Apfel",
+    "explanation": "'Apfel' means apple."
+  },
+  {
+    "id": 117,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich esse gern Pizza.' Was isst die Person gern?",
+    "options": ["Pasta", "Pizza", "Salat", "Suppe"],
+    "correctAnswer": "Pizza",
+    "explanation": "'Pizza' is a popular Italian dish."
+  },
+  {
+    "id": 118,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Mein Vater ist Arzt.' Was ist der Beruf des Vaters?",
+    "options": ["Lehrer", "Arzt", "Koch", "Polizist"],
+    "correctAnswer": "Arzt",
+    "explanation": "'Arzt' means doctor."
+  },
+  {
+    "id": 119,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich habe einen Hund.' Welches Haustier hat die Person?",
+    "options": ["Eine Katze", "Einen Hund", "Ein Kaninchen", "Einen Vogel"],
+    "correctAnswer": "Einen Hund",
+    "explanation": "'Hund' means dog."
+  },
+  {
+    "id": 120,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Es ist kalt heute.' Wie ist das Wetter?",
+    "options": ["Heiß", "Warm", "Kalt", "Sonnig"],
+    "correctAnswer": "Kalt",
+    "explanation": "'Kalt' means cold."
+  },
+  {
+    "id": 121,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Das Zimmer hat zwei Betten.' Wie viele Betten hat das Zimmer?",
+    "options": ["Ein Bett", "Zwei Betten", "Drei Betten", "Vier Betten"],
+    "correctAnswer": "Zwei Betten",
+    "explanation": "'Zwei Betten' means two beds."
+  },
+  {
+    "id": 122,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich fahre mit dem Bus.' Womit fährt die Person?",
+    "options": ["Mit dem Auto", "Mit dem Bus", "Mit dem Zug", "Mit dem Fahrrad"],
+    "correctAnswer": "Mit dem Bus",
+    "explanation": "'Bus' means bus."
+  },
+  {
+    "id": 123,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Der Supermarkt ist geöffnet.' Ist der Supermarkt offen?",
+    "options": ["Ja", "Nein", "Vielleicht", "Weiß nicht"],
+    "correctAnswer": "Ja",
+    "explanation": "'Geöffnet' means open."
+  },
+  {
+    "id": 124,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich habe drei Bücher.' Wie viele Bücher hat die Person?",
+    "options": ["Zwei", "Drei", "Vier", "Fünf"],
+    "correctAnswer": "Drei",
+    "explanation": "'Drei' means three."
+  },
+  {
+    "id": 125,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Guten Morgen!' Wann sagt man das?",
+    "options": ["Am Abend", "Am Morgen", "In der Nacht", "Am Nachmittag"],
+    "correctAnswer": "Am Morgen",
+    "explanation": "'Guten Morgen' is Good morning."
+  },
+  {
+    "id": 126,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich brauche einen Stift.' Was braucht die Person?",
+    "options": ["Ein Buch", "Einen Stift", "Ein Papier", "Eine Schere"],
+    "correctAnswer": "Einen Stift",
+    "explanation": "'Stift' means pen/pencil."
+  },
+  {
+    "id": 127,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Meine Schwester heißt Anna.' Wie heißt die Schwester?",
+    "options": ["Maria", "Anna", "Lisa", "Sophie"],
+    "correctAnswer": "Anna",
+    "explanation": "The sister's name is Anna."
+  },
+  {
+    "id": 128,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Das ist die Schule.' Wo sind sie?",
+    "options": ["Im Park", "In der Schule", "Im Restaurant", "Im Kino"],
+    "correctAnswer": "In der Schule",
+    "explanation": "'Schule' means school."
+  },
+  {
+    "id": 129,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Ich kaufe ein Hemd.' Was kauft die Person?",
+    "options": ["Eine Hose", "Ein Hemd", "Einen Mantel", "Einen Hut"],
+    "correctAnswer": "Ein Hemd",
+    "explanation": "'Hemd' means shirt."
+  },
+  {
+    "id": 130,
+    "category": "listening",
+    "difficulty": "easy",
+    "question": "Hören Sie: 'Tschüss!' Was sagt die Person?",
+    "options": ["Hallo", "Auf Wiedersehen", "Danke", "Bitte"],
+    "correctAnswer": "Auf Wiedersehen",
+    "explanation": "'Tschüss' is an informal goodbye."
+  }
+]

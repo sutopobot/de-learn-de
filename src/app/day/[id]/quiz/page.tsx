@@ -42,14 +42,17 @@ export default function QuizPage() {
       return;
     }
 
-    try {
-      const session = initializeQuiz(dayNum, category);
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- Initialization on mount is intentional
-      setQuizSession(session);
-    } catch (error) {
-      console.error("Failed to initialize quiz:", error);
-      router.push(`/day/${dayNum}`);
-    }
+    const initQuiz = async () => {
+      try {
+        const session = await initializeQuiz(dayNum, category);
+        setQuizSession(session);
+      } catch (error) {
+        console.error("Failed to initialize quiz:", error);
+        router.push(`/day/${dayNum}`);
+      }
+    };
+
+    initQuiz();
   }, [mounted, category, dayNum, router, getHearts]);
 
   const handleAnswerSelect = useCallback((answerIndex: number) => {
@@ -88,11 +91,11 @@ export default function QuizPage() {
     attemptQuiz(dayNum, category as "hoeren" | "lesen", result.passed);
   }, [quizSession, dayNum, category, attemptQuiz]);
 
-  const handleRetry = useCallback(() => {
+  const handleRetry = useCallback(async () => {
     const hearts = getHearts(dayNum);
     if (hearts > 0) {
       // Re-initialize with new random questions
-      const session = initializeQuiz(dayNum, category as "hoeren" | "lesen");
+      const session = await initializeQuiz(dayNum, category as "hoeren" | "lesen");
       setQuizSession(session);
       setQuizResult(null);
       setShowResult(false);

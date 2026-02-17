@@ -1,0 +1,182 @@
+[
+  {
+    "id": 501,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Anzeige: 'Zimmer frei ab 1. Mai, 400 Euro'. Ab wann ist das Zimmer frei?",
+    "options": ["April", "Mai", "Juni", "Juli"],
+    "correctAnswer": "Mai",
+    "explanation": "The ad says 'ab 1. Mai'."
+  },
+  {
+    "id": 502,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Fahrplan: 'S1 nach Hauptbahnhof - Gleis 4'. Von welchem Gleis fährt der Zug?",
+    "options": ["Gleis 1", "Gleis 2", "Gleis 3", "Gleis 4"],
+    "correctAnswer": "Gleis 4",
+    "explanation": "The text says 'Gleis 4'."
+  },
+  {
+    "id": 503,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Lesen Sie: 'Bitte an der Kasse bezahlen'. Wo bezahlt man?",
+    "options": ["At the door", "At the register", "At the table", "In the office"],
+    "correctAnswer": "At the register",
+    "explanation": "'Kasse' means cash register."
+  },
+  {
+    "id": 504,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Ein Formular fragt nach 'Familienname'. Was müssen Sie schreiben?",
+    "options": ["First name", "Last name", "Birth date", "Address"],
+    "correctAnswer": "Last name",
+    "explanation": "'Familienname' is the surname/last name."
+  },
+  {
+    "id": 505,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "E-Mail: 'Der Kurs beginnt am Montag um 10:00 Uhr'. Wann ist der Kurs?",
+    "options": ["Montag, 10:00", "Dienstag, 10:00", "Mittwoch, 10:00", "Montag, 11:00"],
+    "correctAnswer": "Montag, 10:00",
+    "explanation": "The email states 'Montag um 10:00'."
+  },
+  {
+    "id": 506,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Anzeige: 'Suche Mitfahrgelegenheit nach München'. Was sucht die Person?",
+    "options": ["A job in Munich", "A ride to Munich", "An apartment in Munich", "A ticket to Munich"],
+    "correctAnswer": "A ride to Munich",
+    "explanation": "'Mitfahrgelegenheit' means carpooling/carpool opportunity."
+  },
+  {
+    "id": 507,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Schild: 'Zutritt nur mit gültigem Ticket'. Was brauchen Sie?",
+    "options": ["A valid ticket", "A reservation", "An ID card", "A membership card"],
+    "correctAnswer": "A valid ticket",
+    "explanation": "'Gültigem Ticket' means valid ticket."
+  },
+  {
+    "id": 508,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Menü: 'Tagesgericht inklusive Suppe und Dessert'. Was ist inklusive?",
+    "options": ["Nur das Hauptgericht", "Suppe und Dessert", "Nur das Getränk", "Nur die Vorspeise"],
+    "correctAnswer": "Suppe und Dessert",
+    "explanation": "The daily special includes soup and dessert."
+  },
+  {
+    "id": 509,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "E-Mail: 'Ich bin krank und kann heute nicht kommen'. Warum schreibt die Person?",
+    "options": ["To say they are sick", "To say they are happy", "To say they are traveling", "To say they are busy"],
+    "correctAnswer": "To say they are sick",
+    "explanation": "'Krank' means sick/ill."
+  },
+  {
+    "id": 510,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Anzeige: 'Nachmieter gesucht ab August'. Was wird gesucht?",
+    "options": ["A new tenant from August", "A roommate immediately", "A buyer", "A cleaner"],
+    "correctAnswer": "A new tenant from August",
+    "explanation": "'Nachmieter' means someone to take over a lease."
+  },
+  {
+    "id": 511,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Schild: 'Unbefugtes Betreten verboten'. Was bedeutet das?",
+    "options": ["Authorized entry only", "No unauthorized entry", "Entry is free", "Entry for everyone"],
+    "correctAnswer": "No unauthorized entry",
+    "explanation": "'Unbefugtes Betreten verboten' means no unauthorized entry."
+  },
+  {
+    "id": 512,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Brief: 'Vielen Dank für Ihre schnelle Antwort'. Wie war die Antwort?",
+    "options": ["Slow", "Quick", "Missing", "Wrong"],
+    "correctAnswer": "Quick",
+    "explanation": "'Schnelle Antwort' means quick reply."
+  },
+  {
+    "id": 513,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Anzeige: 'Kinderarztpraxis - Neuanmeldungen möglich'. Was ist das?",
+    "options": ["A pediatric practice accepting new patients", "A school for children", "A children's store", "A playground"],
+    "correctAnswer": "A pediatric practice accepting new patients",
+    "explanation": "'Kinderarztpraxis' means pediatric practice."
+  },
+  {
+    "id": 514,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Ticket: 'Rückfahrt gültig bis 24:00 Uhr'. Bis wann ist die Rückfahrt gültig?",
+    "options": ["Bis 12:00 Uhr mittags", "Bis 24:00 Uhr", "Bis morgen früh", "Für eine Woche"],
+    "correctAnswer": "Bis 24:00 Uhr",
+    "explanation": "'Bis 24:00 Uhr' means until midnight."
+  },
+  {
+    "id": 515,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Schild: 'Damenbekleidung im ersten Stock'. Wo ist die Damenbekleidung?",
+    "options": ["Im Erdgeschoss", "Im ersten Stock", "Im zweiten Stock", "Im Keller"],
+    "correctAnswer": "Im ersten Stock",
+    "explanation": "'Erster Stock' means first floor."
+  },
+  {
+    "id": 516,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "E-Mail: 'Ich habe Ihre Nachricht erhalten und werde mich melden'. Was wird passieren?",
+    "options": ["No reply", "They will get back to you", "They are angry", "They are ignoring you"],
+    "correctAnswer": "They will get back to you",
+    "explanation": "'Werde mich melden' means will get back to you."
+  },
+  {
+    "id": 517,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Anzeige: 'Stellplatz für Wohnmobil zu vermieten'. Was wird vermietet?",
+    "options": ["An apartment", "A parking space for a camper", "A mobile phone", "A car"],
+    "correctAnswer": "A parking space for a camper",
+    "explanation": "'Wohnmobil' means camper/RV."
+  },
+  {
+    "id": 518,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Schild: 'Bitte warten Sie, bis Sie aufgerufen werden'. Was sollen Sie tun?",
+    "options": ["Leave immediately", "Wait until called", "Call someone", "Enter now"],
+    "correctAnswer": "Wait until called",
+    "explanation": "'Aufgerufen werden' means to be called."
+  },
+  {
+    "id": 519,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Anzeige: 'Babysitter gesucht für Dienstag und Donnerstag'. An welchen Tagen wird Babysitting gebraucht?",
+    "options": ["Montag und Mittwoch", "Dienstag und Donnerstag", "Mittwoch und Freitag", "Samstag und Sonntag"],
+    "correctAnswer": "Dienstag und Donnerstag",
+    "explanation": "The ad mentions Tuesday and Thursday."
+  },
+  {
+    "id": 520,
+    "category": "reading",
+    "difficulty": "medium",
+    "question": "Schild: 'Bitte Schuhe ausziehen'. Was sollen Besucher tun?",
+    "options": ["Die Schuhe anziehen", "Die Schuhe ausziehen", "Die Schuhe kaufen", "Die Schuhe putzen"],
+    "correctAnswer": "Die Schuhe ausziehen",
+    "explanation": "'Schuhe ausziehen' means to take off shoes."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 701,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Welches Wort passt? 'Ich ___ aus Italien.'",
+    "options": ["bin", "bist", "ist", "sind"],
+    "correctAnswer": "bin",
+    "explanation": "The verb 'sein' for 'ich' is 'bin'."
+  },
+  {
+    "id": 702,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Wie fragt man nach dem Namen?",
+    "options": ["Wie heißt du?", "Wo bist du?", "Was ist das?", "Wie alt bist du?"],
+    "correctAnswer": "Wie heißt du?",
+    "explanation": "'Wie heißt du?' means 'What is your name?'"
+  },
+  {
+    "id": 703,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Das ist ___ Auto (n).'",
+    "options": ["ein", "eine", "einer", "eines"],
+    "correctAnswer": "ein",
+    "explanation": "'Auto' is neuter (das), so the indefinite article is 'ein'."
+  },
+  {
+    "id": 704,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Wo ___ du?'",
+    "options": ["wohnt", "wohnst", "wohnen", "wohne"],
+    "correctAnswer": "wohnst",
+    "explanation": "The verb 'wohnen' for 'du' ends in '-st'."
+  },
+  {
+    "id": 705,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Was ist korrekt? 'Sie (plural) ___ Deutsch.'",
+    "options": ["lernt", "lernst", "lernen", "lerne"],
+    "correctAnswer": "lernen",
+    "explanation": "The plural 'sie' (they) takes the ending '-en'."
+  },
+  {
+    "id": 706,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Wie schreibt man 'Good morning' auf Deutsch?",
+    "options": ["Guten Tag", "Guten Morgen", "Gute Nacht", "Guten Abend"],
+    "correctAnswer": "Guten Morgen",
+    "explanation": "'Guten Morgen' is Good morning."
+  },
+  {
+    "id": 707,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Ich habe ___ Hunger.'",
+    "options": ["kein", "keine", "keinen", "nicht"],
+    "correctAnswer": "keinen",
+    "explanation": "'Hunger' is masculine (der), and here it is accusative: 'keinen Hunger'."
+  },
+  {
+    "id": 708,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Welches Wort ist richtig? 'Das ist ___ Frau (f).'",
+    "options": ["mein", "meine", "meinen", "meines"],
+    "correctAnswer": "meine",
+    "explanation": "'Frau' is feminine, so it takes 'meine'."
+  },
+  {
+    "id": 709,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Wie sagt man 'Thank you'?",
+    "options": ["Bitte", "Danke", "Entschuldigung", "Hallo"],
+    "correctAnswer": "Danke",
+    "explanation": "'Danke' means thank you."
+  },
+  {
+    "id": 710,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Welcher Artikel passt zu 'Tisch'?",
+    "options": ["der", "die", "das", "die (pl)"],
+    "correctAnswer": "der",
+    "explanation": "'Tisch' is masculine: der Tisch."
+  },
+  {
+    "id": 711,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Wie heißt die Zahl '10' auf Deutsch?",
+    "options": ["zwei", "fünf", "zehn", "hundert"],
+    "correctAnswer": "zehn",
+    "explanation": "'Zehn' is ten."
+  },
+  {
+    "id": 712,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Ich ___ 20 Jahre alt.'",
+    "options": ["bin", "bist", "ist", "sind"],
+    "correctAnswer": "bin",
+    "explanation": "For 'ich', use 'bin'."
+  },
+  {
+    "id": 713,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Welcher Artikel passt zu 'Buch' (book)?",
+    "options": ["der", "die", "das", "die (pl)"],
+    "correctAnswer": "das",
+    "explanation": "'Buch' is neuter: das Buch."
+  },
+  {
+    "id": 714,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: '___ heißt das auf Deutsch?'",
+    "options": ["Wer", "Was", "Wie", "Wo"],
+    "correctAnswer": "Wie",
+    "explanation": "'Wie heißt das?' means 'What is that called?'"
+  },
+  {
+    "id": 715,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Was ist das Gegenteil von 'groß'?",
+    "options": ["klein", "lang", "breit", "hoch"],
+    "correctAnswer": "klein",
+    "explanation": "'Klein' means small."
+  },
+  {
+    "id": 716,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Wir ___ aus Deutschland.'",
+    "options": ["komme", "kommst", "kommt", "kommen"],
+    "correctAnswer": "kommen",
+    "explanation": "The verb 'kommen' for 'wir' ends in '-en'."
+  },
+  {
+    "id": 717,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Welcher Monat kommt nach Januar?",
+    "options": ["Dezember", "Februar", "März", "April"],
+    "correctAnswer": "Februar",
+    "explanation": "February comes after January."
+  },
+  {
+    "id": 718,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Das ist ___ Bruder.'",
+    "options": ["mein", "meine", "meinen", "meiner"],
+    "correctAnswer": "mein",
+    "explanation": "'Bruder' is masculine, so it takes 'mein'."
+  },
+  {
+    "id": 719,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Wie schreibt man 'one' auf Deutsch?",
+    "options": ["zwei", "drei", "eins", "vier"],
+    "correctAnswer": "eins",
+    "explanation": "'Eins' is one."
+  },
+  {
+    "id": 720,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Was ist korrekt? '___ spreche Deutsch.'",
+    "options": ["Ich", "Du", "Er", "Wir"],
+    "correctAnswer": "Ich",
+    "explanation": "'Ich spreche' is correct with the -e ending."
+  },
+  {
+    "id": 721,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Welcher Artikel passt zu 'Haus'?",
+    "options": ["der", "die", "das", "die (pl)"],
+    "correctAnswer": "das",
+    "explanation": "'Haus' is neuter: das Haus."
+  },
+  {
+    "id": 722,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Sie ___ Lehrerin.'",
+    "options": ["bin", "bist", "ist", "sind"],
+    "correctAnswer": "ist",
+    "explanation": "For 'sie' (she), use 'ist'."
+  },
+  {
+    "id": 723,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Was bedeutet 'Wasser'?",
+    "options": ["Water", "Wine", "Juice", "Milk"],
+    "correctAnswer": "Water",
+    "explanation": "'Wasser' means water."
+  },
+  {
+    "id": 724,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: '___ alt bist du?'",
+    "options": ["Wer", "Wie", "Was", "Wo"],
+    "correctAnswer": "Wie",
+    "explanation": "'Wie alt bist du?' means 'How old are you?'"
+  },
+  {
+    "id": 725,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Welcher Wochentag ist der erste Tag der Arbeitswoche in Deutschland?",
+    "options": ["Montag", "Dienstag", "Mittwoch", "Donnerstag"],
+    "correctAnswer": "Montag",
+    "explanation": "Monday is the first workday in Germany."
+  },
+  {
+    "id": 726,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Ich habe ___ Schwester.'",
+    "options": ["ein", "eine", "einen", "einer"],
+    "correctAnswer": "eine",
+    "explanation": "'Schwester' is feminine, so it takes 'eine'."
+  },
+  {
+    "id": 727,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Was ist das Plural von 'Buch'?",
+    "options": ["Buchs", "Bücher", "Buchen", "Bucher"],
+    "correctAnswer": "Bücher",
+    "explanation": "'Bücher' is the plural of 'Buch'."
+  },
+  {
+    "id": 728,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Ergänzen Sie: 'Wir wohnen ___ Berlin.'",
+    "options": ["aus", "in", "nach", "zu"],
+    "correctAnswer": "in",
+    "explanation": "'In Berlin' - we use 'in' for cities."
+  },
+  {
+    "id": 729,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Wie heißt 'cat' auf Deutsch?",
+    "options": ["Hund", "Katze", "Vogel", "Fisch"],
+    "correctAnswer": "Katze",
+    "explanation": "'Katze' means cat."
+  },
+  {
+    "id": 730,
+    "category": "writing",
+    "difficulty": "easy",
+    "question": "Was ist korrekt? 'Du ___ sehr nett.'",
+    "options": ["bist", "bin", "ist", "sind"],
+    "correctAnswer": "bist",
+    "explanation": "For 'du', use 'bist'."
+  }
+]

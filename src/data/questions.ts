@@ -10,35 +10,84 @@ export interface Question {
   explanation: string;
 }
 
-// Import questions from JSON file
-import questionsData from "../../data/questions.json";
+// Lazy loading cache
+const questionCache: Map<string, Question[]> = new Map();
 
-export const QUESTIONS: Question[] = questionsData as Question[];
+// Dynamic import function for questions
+export async function loadQuestions(
+  category: "listening" | "reading" | "writing" | "speaking",
+  difficulty: "easy" | "medium" | "hard"
+): Promise<Question[]> {
+  const cacheKey = `${category}-${difficulty}`;
+  
+  // Return cached questions if available
+  if (questionCache.has(cacheKey)) {
+    return questionCache.get(cacheKey)!;
+  }
 
-// Filter questions by category and difficulty
+  try {
+    // Dynamic import based on category and difficulty
+    const module = await import(`../../data/questions/${category}-${difficulty}.json`);
+    const questions: Question[] = module.default || module;
+    
+    // Cache the loaded questions
+    questionCache.set(cacheKey, questions);
+    
+    return questions;
+  } catch (error) {
+    console.error(`Failed to load questions for ${category}-${difficulty}:`, error);
+    return [];
+  }
+}
+
+// Load all questions for a category
+export async function loadQuestionsByCategory(
+  category: "listening" | "reading" | "writing" | "speaking"
+): Promise<Question[]> {
+  const difficulties: ("easy" | "medium" | "hard")[] = ["easy", "medium", "hard"];
+  
+  const allQuestions = await Promise.all(
+    difficulties.map(difficulty => loadQuestions(category, difficulty))
+  );
+  
+  return allQuestions.flat();
+}
+
+// Load all questions (for initial load or full refresh)
+export async function loadAllQuestions(): Promise<Question[]> {
+  const categories: ("listening" | "reading" | "writing" | "speaking")[] = 
+    ["listening", "reading", "writing", "speaking"];
+  
+  const allQuestions = await Promise.all(
+    categories.map(category => loadQuestionsByCategory(category))
+  );
+  
+  return allQuestions.flat();
+}
+
+// Get questions by category and difficulty (sync version - requires pre-loading)
 export function getQuestionsByCategoryAndDifficulty(
   category: "listening" | "reading" | "writing" | "speaking",
   difficulty: "easy" | "medium" | "hard"
 ): Question[] {
-  return QUESTIONS.filter(
-    (q) => q.category === category && q.difficulty === difficulty
-  );
+  const cacheKey = `${category}-${difficulty}`;
+  return questionCache.get(cacheKey) || [];
 }
 
 // Get random questions with replacement
-export function getRandomQuestions(
-  category: "listening" | "reading",
+export async function getRandomQuestions(
+  category: "listening" | "reading" | "writing" | "speaking",
   difficulty: "easy" | "medium" | "hard",
   count: number = 5
-): Question[] {
-  const pool = getQuestionsByCategoryAndDifficulty(category, difficulty);
+): Promise<Question[]> {
+  const pool = await loadQuestions(category, difficulty);
 
   if (pool.length === 0) {
     console.warn(
       `No questions found for ${category} + ${difficulty}, using all available`
     );
     // Fallback to all questions of that category
-    const fallbackPool = QUESTIONS.filter((q) => q.category === category);
+    const fallbackPool = await loadQuestionsByCategory(category);
     if (fallbackPool.length === 0) {
       throw new Error(`No questions available for category: ${category}`);
     }
@@ -117,4 +166,36 @@ export function getHeartsDisplay(
   const filled = "❤️".repeat(hearts);
   const empty = "💔".repeat(maxHearts - hearts);
   return filled + empty;
+}
+
+// Statistics functions
+export async function getQuestionCounts(): Promise<{
+  listening: { easy: number; medium: number; hard: number; total: number };
+  reading: { easy: number; medium: number; hard: number; total: number };
+  writing: { easy: number; medium: number; hard: number; total: number };
+  speaking: { easy: number; medium: number; hard: number; total: number };
+  total: number;
+}> {
+  const categories: ("listening" | "reading" | "writing" | "speaking")[] = 
+    ["listening", "reading", "writing", "speaking"];
+  const difficulties: ("easy" | "medium" | "hard")[] = ["easy", "medium", "hard"];
+  
+  const counts = {
+    listening: { easy: 0, medium: 0, hard: 0, total: 0 },
+    reading: { easy: 0, medium: 0, hard: 0, total: 0 },
+    writing: { easy: 0, medium: 0, hard: 0, total: 0 },
+    speaking: { easy: 0, medium: 0, hard: 0, total: 0 },
+    total: 0
+  };
+
+  for (const category of categories) {
+    for (const difficulty of difficulties) {
+      const questions = await loadQuestions(category, difficulty);
+      counts[category][difficulty] = questions.length;
+      counts[category].total += questions.length;
+      counts.total += questions.length;
+    }
+  }
+
+  return counts;
 }

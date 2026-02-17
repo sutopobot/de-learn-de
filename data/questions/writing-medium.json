@@ -1,0 +1,182 @@
+[
+  {
+    "id": 801,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Satzbau: 'Ich / heute / arbeite'. Was ist korrekt?",
+    "options": ["Heute ich arbeite.", "Ich arbeite heute.", "Arbeite ich heute.", "Ich heute arbeite."],
+    "correctAnswer": "Ich arbeite heute.",
+    "explanation": "The verb usually takes the second position in a statement."
+  },
+  {
+    "id": 802,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Negation: 'Ich trinke ___ Kaffee.'",
+    "options": ["kein", "keine", "keinen", "nicht"],
+    "correctAnswer": "keinen",
+    "explanation": "'Kaffee' is masculine accusative: 'keinen Kaffee'."
+  },
+  {
+    "id": 803,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Frage: '___ ist das?' - 'Das ist mein Freund.'",
+    "options": ["Wer", "Was", "Wo", "Wie"],
+    "correctAnswer": "Wer",
+    "explanation": "'Wer' asks about people (Who)."
+  },
+  {
+    "id": 804,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Plural: 'Das Buch' -> 'Die ___'.",
+    "options": ["Bücher", "Buchen", "Buchs", "Buche"],
+    "correctAnswer": "Bücher",
+    "explanation": "The plural of 'Buch' is 'Bücher'."
+  },
+  {
+    "id": 805,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Modalverb: 'Ich ___ gut schwimmen.'",
+    "options": ["kann", "kannst", "können", "könnt"],
+    "correctAnswer": "kann",
+    "explanation": "The modal verb 'können' for 'ich' is 'kann'."
+  },
+  {
+    "id": 806,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Akkusativ: 'Ich sehe ___ Hund.'",
+    "options": ["der", "die", "das", "den"],
+    "correctAnswer": "den",
+    "explanation": "'Hund' is masculine, accusative article is 'den'."
+  },
+  {
+    "id": 807,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Trennbares Verb: 'Ich ___ um 7 Uhr auf.'",
+    "options": ["stehe", "stehst", "steht", "stehen"],
+    "correctAnswer": "stehe",
+    "explanation": "'Aufstehen' (to get up) conjugated for 'ich' is 'stehe...auf'."
+  },
+  {
+    "id": 808,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Possessivartikel: 'Das ist ___ Handy.'",
+    "options": ["mein", "meine", "meinen", "meinem"],
+    "correctAnswer": "mein",
+    "explanation": "'Handy' is neuter (das), so it takes 'mein'."
+  },
+  {
+    "id": 809,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Dativ: 'Ich gebe dem Kind ___ Buch.'",
+    "options": ["der", "die", "das", "dem"],
+    "correctAnswer": "das",
+    "explanation": "'Buch' is neuter accusative here (direct object): 'das Buch'."
+  },
+  {
+    "id": 810,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Perfekt: 'Ich ___ ein Buch gelesen.'",
+    "options": ["habe", "hast", "hat", "haben"],
+    "correctAnswer": "habe",
+    "explanation": "Perfect tense with 'haben' for 'lesen' (to read)."
+  },
+  {
+    "id": 811,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Ordinalzahlen: 'Der ___ Mai ist ein Feiertag.'",
+    "options": ["eins", "erste", "einer", "eines"],
+    "correctAnswer": "erste",
+    "explanation": "'Der erste Mai' is May 1st."
+  },
+  {
+    "id": 812,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Wechselpräposition: 'Das Buch liegt ___ dem Tisch.'",
+    "options": ["in", "an", "auf", "unter"],
+    "correctAnswer": "auf",
+    "explanation": "'Auf' with dative means on (location)."
+  },
+  {
+    "id": 813,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Komparativ: 'Berlin ist ___ als Hamburg.'",
+    "options": ["groß", "größer", "am größten", "große"],
+    "correctAnswer": "größer",
+    "explanation": "Comparative form of 'groß' is 'größer'."
+  },
+  {
+    "id": 814,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Reflexivpronomen: 'Ich dusche ___ jeden Morgen.'",
+    "options": ["mich", "mir", "sich", "dich"],
+    "correctAnswer": "mich",
+    "explanation": "'Sich duschen' for 'ich' takes 'mich'."
+  },
+  {
+    "id": 815,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Demonstrativpronomen: '___ ist mein Bruder.'",
+    "options": ["Dieser", "Diese", "Dieses", "Dies"],
+    "correctAnswer": "Das",
+    "explanation": "'Das ist...' is the standard introduction."
+  },
+  {
+    "id": 816,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Imperativ: '___ bitte hier!' (formal)",
+    "options": ["Komm", "Kommen", "Kommt", "Komme"],
+    "correctAnswer": "Kommen",
+    "explanation": "Formal imperative uses the infinitive: 'Kommen Sie bitte hier!'"
+  },
+  {
+    "id": 817,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Uhrzeit: 'Es ist ___ 9.' (8:30)",
+    "options": ["halb", "viertel", "dreiviertel", "nach"],
+    "correctAnswer": "halb",
+    "explanation": "'Halb neun' means 8:30."
+  },
+  {
+    "id": 818,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Plural unregelmäßig: 'Das Kind' -> 'Die ___'.",
+    "options": ["Kinds", "Kinder", "Kinde", "Kinden"],
+    "correctAnswer": "Kinder",
+    "explanation": "The plural of 'Kind' is 'Kinder'."
+  },
+  {
+    "id": 819,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Artikel: 'Ich gebe ___ Frau einen Apfel.'",
+    "options": ["der", "die", "der", "dem"],
+    "correctAnswer": "der",
+    "explanation": "Dative feminine article is 'der'."
+  },
+  {
+    "id": 820,
+    "category": "writing",
+    "difficulty": "medium",
+    "question": "Possessiv: '___ Vater arbeitet in einer Schule.'",
+    "options": ["Mein", "Meine", "Meinen", "Meinem"],
+    "correctAnswer": "Mein",
+    "explanation": "'Vater' is masculine nominative, so 'mein'."
+  }
+]

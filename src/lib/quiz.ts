@@ -19,14 +19,14 @@ export interface QuizSession {
 }
 
 // Initialize a new quiz session
-export function initializeQuiz(
+export async function initializeQuiz(
   day: number,
   category: "hoeren" | "lesen"
-): QuizSession {
+): Promise<QuizSession> {
   const difficulty = getDifficultyForDay(day);
   // Map session IDs to question categories
   const questionCategory = category === "hoeren" ? "listening" : "reading";
-  const questions = getRandomQuestions(questionCategory, difficulty, 5);
+  const questions = await getRandomQuestions(questionCategory, difficulty, 5);
 
   return {
     questions,

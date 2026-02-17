@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1001,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You meet someone at 3 PM. What do you say?",
+    "options": ["Guten Morgen", "Guten Tag", "Gute Nacht", "Tschüss"],
+    "correctAnswer": "Guten Tag",
+    "explanation": "Guten Tag is used during the day (after morning)."
+  },
+  {
+    "id": 1002,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to order a tea. What do you say?",
+    "options": ["Ein Tee, bitte.", "Wie heißt das?", "Wo ist der Tee?", "Ich habe Hunger."],
+    "correctAnswer": "Ein Tee, bitte.",
+    "explanation": "'Ein Tee, bitte' is a polite way to order."
+  },
+  {
+    "id": 1003,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: Someone says 'Danke'. What is the best response?",
+    "options": ["Hallo", "Bitte/Gern geschehen", "Entschuldigung", "Auf Wiedersehen"],
+    "correctAnswer": "Bitte/Gern geschehen",
+    "explanation": "The standard response to 'Danke' is 'Bitte'."
+  },
+  {
+    "id": 1004,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to know the price of a shirt. What do you ask?",
+    "options": ["Was kostet das?", "Wie heißt du?", "Wo wohnst du?", "Was ist das?"],
+    "correctAnswer": "Was kostet das?",
+    "explanation": "'Was kostet das?' means 'How much does it cost?'"
+  },
+  {
+    "id": 1005,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You are leaving a shop. What do you say?",
+    "options": ["Hallo", "Auf Wiedersehen", "Entschuldigung", "Willkommen"],
+    "correctAnswer": "Auf Wiedersehen",
+    "explanation": "'Auf Wiedersehen' means 'Goodbye'."
+  },
+  {
+    "id": 1006,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You didn't understand. What do you say?",
+    "options": ["Wie bitte?", "Danke", "Ja, bitte", "Hallo"],
+    "correctAnswer": "Wie bitte?",
+    "explanation": "'Wie bitte?' means 'Pardon?' or 'Could you repeat that?'"
+  },
+  {
+    "id": 1007,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to ask for the way to the park. What do you ask?",
+    "options": ["Wo ist der Park?", "Wer ist im Park?", "Wie ist der Park?", "Wann ist der Park?"],
+    "correctAnswer": "Wo ist der Park?",
+    "explanation": "'Wo' asks about the location."
+  },
+  {
+    "id": 1008,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You are late. What do you say?",
+    "options": ["Es tut mir leid.", "Guten Tag.", "Wie geht's?", "Danke."],
+    "correctAnswer": "Es tut mir leid.",
+    "explanation": "'Es tut mir leid' means 'I am sorry'."
+  },
+  {
+    "id": 1009,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to introduce your friend Peter. What do you say?",
+    "options": ["Das ist Peter.", "Ich bin Peter.", "Er heißt Peter?", "Peter ist hier."],
+    "correctAnswer": "Das ist Peter.",
+    "explanation": "'Das ist...' is used for introductions."
+  },
+  {
+    "id": 1010,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to know where someone is from. What do you ask?",
+    "options": ["Woher kommst du?", "Wohin gehst du?", "Wo wohnst du?", "Wie heißt du?"],
+    "correctAnswer": "Woher kommst du?",
+    "explanation": "'Woher' asks about origin."
+  },
+  {
+    "id": 1011,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: Someone asks 'Wie geht's?' How do you respond positively?",
+    "options": ["Gut, danke.", "Schlecht.", "Tschüss.", "Nichts."],
+    "correctAnswer": "Gut, danke.",
+    "explanation": "'Gut, danke' means 'Good, thank you'."
+  },
+  {
+    "id": 1012,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you don't understand German. What do you say?",
+    "options": ["Ich verstehe kein Deutsch.", "Ich spreche Deutsch.", "Ich lerne Deutsch.", "Ich liebe Deutsch."],
+    "correctAnswer": "Ich verstehe kein Deutsch.",
+    "explanation": "'Ich verstehe kein Deutsch' means 'I don't understand German'."
+  },
+  {
+    "id": 1013,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to ask for help. What do you say?",
+    "options": ["Können Sie mir helfen?", "Was machen Sie?", "Wo sind Sie?", "Wer sind Sie?"],
+    "correctAnswer": "Können Sie mir helfen?",
+    "explanation": "'Können Sie mir helfen?' means 'Can you help me?'"
+  },
+  {
+    "id": 1014,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you're hungry. What do you say?",
+    "options": ["Ich habe Durst.", "Ich habe Hunger.", "Ich bin müde.", "Ich bin krank."],
+    "correctAnswer": "Ich habe Hunger.",
+    "explanation": "'Ich habe Hunger' means 'I am hungry'."
+  },
+  {
+    "id": 1015,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you like something. What do you say?",
+    "options": ["Ich mag das.", "Ich hasse das.", "Ich kenne das.", "Ich sehe das."],
+    "correctAnswer": "Ich mag das.",
+    "explanation": "'Ich mag das' means 'I like that'."
+  },
+  {
+    "id": 1016,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say your name. What do you say?",
+    "options": ["Ich heiße...", "Ich wohne...", "Ich komme...", "Ich bin..."],
+    "correctAnswer": "Ich heiße...",
+    "explanation": "'Ich heiße' means 'My name is'."
+  },
+  {
+    "id": 1017,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say 'See you tomorrow'. What do you say?",
+    "options": ["Bis später.", "Bis morgen.", "Bis gestern.", "Bis heute."],
+    "correctAnswer": "Bis morgen.",
+    "explanation": "'Bis morgen' means 'See you tomorrow'."
+  },
+  {
+    "id": 1018,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to confirm something. What do you say?",
+    "options": ["Ja, genau.", "Nein, falsch.", "Vielleicht.", "Weiß nicht."],
+    "correctAnswer": "Ja, genau.",
+    "explanation": "'Ja, genau' means 'Yes, exactly'."
+  },
+  {
+    "id": 1019,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you don't know. What do you say?",
+    "options": ["Ich weiß.", "Ich weiß nicht.", "Ich verstehe.", "Ich sehe."],
+    "correctAnswer": "Ich weiß nicht.",
+    "explanation": "'Ich weiß nicht' means 'I don't know'."
+  },
+  {
+    "id": 1020,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say 'Please speak slowly'. What do you say?",
+    "options": ["Bitte schnell sprechen.", "Bitte langsam sprechen.", "Bitte leise sprechen.", "Bitte laut sprechen."],
+    "correctAnswer": "Bitte langsam sprechen.",
+    "explanation": "'Langsam' means slow/slowly."
+  },
+  {
+    "id": 1021,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you're tired. What do you say?",
+    "options": ["Ich bin müde.", "Ich bin krank.", "Ich bin glücklich.", "Ich bin traurig."],
+    "correctAnswer": "Ich bin müde.",
+    "explanation": "'Ich bin müde' means 'I am tired'."
+  },
+  {
+    "id": 1022,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to ask for a menu in a restaurant. What do you say?",
+    "options": ["Die Rechnung, bitte.", "Die Speisekarte, bitte.", "Das Wasser, bitte.", "Der Tisch, bitte."],
+    "correctAnswer": "Die Speisekarte, bitte.",
+    "explanation": "'Speisekarte' means menu."
+  },
+  {
+    "id": 1023,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you're thirsty. What do you say?",
+    "options": ["Ich habe Hunger.", "Ich habe Durst.", "Ich bin müde.", "Ich bin krank."],
+    "correctAnswer": "Ich habe Durst.",
+    "explanation": "'Ich habe Durst' means 'I am thirsty'."
+  },
+  {
+    "id": 1024,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to ask for the bill. What do you say?",
+    "options": ["Die Speisekarte, bitte.", "Die Rechnung, bitte.", "Das Essen, bitte.", "Der Kaffee, bitte."],
+    "correctAnswer": "Die Rechnung, bitte.",
+    "explanation": "'Die Rechnung' means the bill/check."
+  },
+  {
+    "id": 1025,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you speak a little German. What do you say?",
+    "options": ["Ich spreche kein Deutsch.", "Ich spreche ein bisschen Deutsch.", "Ich spreche perfekt Deutsch.", "Ich lerne kein Deutsch."],
+    "correctAnswer": "Ich spreche ein bisschen Deutsch.",
+    "explanation": "'Ein bisschen' means a little."
+  },
+  {
+    "id": 1026,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to ask what something is called. What do you say?",
+    "options": ["Wie heißt das?", "Wo ist das?", "Was kostet das?", "Wer ist das?"],
+    "correctAnswer": "Wie heißt das?",
+    "explanation": "'Wie heißt das?' means 'What is that called?'"
+  },
+  {
+    "id": 1027,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you're happy. What do you say?",
+    "options": ["Ich bin traurig.", "Ich bin müde.", "Ich bin glücklich.", "Ich bin krank."],
+    "correctAnswer": "Ich bin glücklich.",
+    "explanation": "'Ich bin glücklich' means 'I am happy'."
+  },
+  {
+    "id": 1028,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say goodbye informally. What do you say?",
+    "options": ["Auf Wiedersehen", "Tschüss", "Guten Tag", "Guten Morgen"],
+    "correctAnswer": "Tschüss",
+    "explanation": "'Tschüss' is an informal goodbye."
+  },
+  {
+    "id": 1029,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say 'Good evening'. What do you say?",
+    "options": ["Guten Morgen", "Guten Tag", "Guten Abend", "Gute Nacht"],
+    "correctAnswer": "Guten Abend",
+    "explanation": "'Guten Abend' means Good evening."
+  },
+  {
+    "id": 1030,
+    "category": "speaking",
+    "difficulty": "easy",
+    "question": "Situation: You want to say you're from America. What do you say?",
+    "options": ["Ich wohne in Amerika.", "Ich komme aus Amerika.", "Ich gehe nach Amerika.", "Ich bin aus Amerika."],
+    "correctAnswer": "Ich komme aus Amerika.",
+    "explanation": "'Ich komme aus' means 'I come from'."
+  }
+]

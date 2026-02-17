@@ -1,0 +1,182 @@
+[
+  {
+    "id": 901,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Präposition: 'Ich wohne ___ Berlin.'",
+    "options": ["in", "an", "auf", "nach"],
+    "correctAnswer": "in",
+    "explanation": "We use 'in' for cities."
+  },
+  {
+    "id": 902,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Personalpronomen: 'Das ist Peter. ___ kommt aus Wien.'",
+    "options": ["Er", "Sie", "Es", "Wir"],
+    "correctAnswer": "Er",
+    "explanation": "Peter is male, so we use 'Er' (he)."
+  },
+  {
+    "id": 903,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Possessivartikel: 'Hast du ___ Handy (n)?'",
+    "options": ["dein", "deine", "deinen", "deines"],
+    "correctAnswer": "dein",
+    "explanation": "'Handy' is neuter (das), so it is 'dein Handy'."
+  },
+  {
+    "id": 904,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Verbform: 'Wir ___ heute Pizza.'",
+    "options": ["essen", "esst", "isst", "esse"],
+    "correctAnswer": "essen",
+    "explanation": "The ending for 'wir' is '-en'."
+  },
+  {
+    "id": 905,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Gegenteil: Was ist das Gegenteil von 'groß'?",
+    "options": ["klein", "alt", "schön", "lang"],
+    "correctAnswer": "klein",
+    "explanation": "'Klein' (small) is the opposite of 'groß' (big)."
+  },
+  {
+    "id": 906,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Dativ nach 'mit': 'Ich fahre ___ dem Bus.'",
+    "options": ["in", "mit", "bei", "zu"],
+    "correctAnswer": "mit",
+    "explanation": "'Mit' always takes dative case."
+  },
+  {
+    "id": 907,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Konjunktion: 'Ich gehe ins Kino, ___ ich habe Zeit.'",
+    "options": ["und", "aber", "weil", "oder"],
+    "correctAnswer": "weil",
+    "explanation": "'Weil' introduces a reason (because)."
+  },
+  {
+    "id": 908,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Superlativ: 'Das ist ___ Buch im Laden.'",
+    "options": ["gut", "besser", "das beste", "am besten"],
+    "correctAnswer": "das beste",
+    "explanation": "Superlative with article: 'das beste'."
+  },
+  {
+    "id": 909,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Relativpronomen: 'Das ist der Mann, ___ ich kenne.'",
+    "options": ["der", "den", "dem", "dessen"],
+    "correctAnswer": "den",
+    "explanation": "Accusative masculine relative pronoun is 'den'."
+  },
+  {
+    "id": 910,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Plusquamperfekt: 'Als ich ankam, ___ er schon gegessen.'",
+    "options": ["hat", "hatte", "habe", "hatten"],
+    "correctAnswer": "hatte",
+    "explanation": "Pluperfect uses 'hatte' + participle."
+  },
+  {
+    "id": 911,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Genitiv: 'Das ist das Auto ___ Vaters.'",
+    "options": ["mein", "meines", "von meinem", "meinen"],
+    "correctAnswer": "meines",
+    "explanation": "Genitive masculine is 'meines'."
+  },
+  {
+    "id": 912,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Konjunktiv II: 'Wenn ich Zeit ___, würde ich kommen.'",
+    "options": ["habe", "hätte", "hatte", "haben"],
+    "correctAnswer": "hätte",
+    "explanation": "Konjunktiv II of 'haben' is 'hätte'."
+  },
+  {
+    "id": 913,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Zweiteilige Konnektoren: '___ es regnet, bleibe ich ___ zu Hause.'",
+    "options": ["Wenn...dann", "Ob...oder", "Nicht nur...sondern auch", "Entweder...oder"],
+    "correctAnswer": "Wenn...dann",
+    "explanation": "'Wenn...dann' means if...then."
+  },
+  {
+    "id": 914,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Passiv: 'Das Haus ___ 1990 gebaut.'",
+    "options": ["wird", "wurde", "ist", "war"],
+    "correctAnswer": "wurde",
+    "explanation": "Präteritum Passiv with 'wurde'."
+  },
+  {
+    "id": 915,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Partizipialkonstruktion: 'Der ___ Mann geht nach Hause.' (arbeiten)",
+    "options": ["arbeitend", "arbeitende", "gearbeitet", "gearbeitete"],
+    "correctAnswer": "arbeitende",
+    "explanation": "Present participle as adjective: 'arbeitende'."
+  },
+  {
+    "id": 916,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Infinitiv mit zu: 'Ich habe vor, ___ zu lernen.'",
+    "options": ["Deutsch", "Deutsches", "dem Deutsch", "des Deutschen"],
+    "correctAnswer": "Deutsch",
+    "explanation": "Infinitive with 'zu' uses base form."
+  },
+  {
+    "id": 917,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Präposition mit Genitiv: '___ des schlechten Wetters bleiben wir zu Hause.'",
+    "options": ["Wegen", "Trotz", "Während", "Statt"],
+    "correctAnswer": "Wegen",
+    "explanation": "'Wegen' takes genitive and means 'because of'."
+  },
+  {
+    "id": 918,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Indirekte Frage: 'Kannst du mir sagen, ___ Uhr es ist?'",
+    "options": ["welche", "welcher", "welchem", "welchen"],
+    "correctAnswer": "wie viel",
+    "explanation": "'Wie viel Uhr' asks for the time."
+  },
+  {
+    "id": 919,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Adjektivdeklination: 'Ich kaufe ___ roten Apfel.'",
+    "options": ["ein", "einen", "einem", "einer"],
+    "correctAnswer": "einen",
+    "explanation": "Accusative masculine with adjective: 'einen roten Apfel'."
+  },
+  {
+    "id": 920,
+    "category": "writing",
+    "difficulty": "hard",
+    "question": "Modalverb im Perfekt: 'Ich habe das ___ können.'",
+    "options": ["nicht", "nichts", "nicht können", "nicht gekonnt"],
+    "correctAnswer": "nicht gekonnt",
+    "explanation": "Modal verbs in perfect use infinitive or participle form."
+  }
+]

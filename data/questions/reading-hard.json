@@ -1,0 +1,182 @@
+[
+  {
+    "id": 601,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Anzeige: 'Suche Hilfe im Garten (Samstags)'. Wann wird Hilfe gesucht?",
+    "options": ["Every day", "Sundays", "Saturdays", "Mornings"],
+    "correctAnswer": "Saturdays",
+    "explanation": "'Samstags' means every Saturday."
+  },
+  {
+    "id": 602,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Schild: 'Drücken'. Was soll man mit der Tür machen?",
+    "options": ["Pull", "Push", "Lock", "Open"],
+    "correctAnswer": "Push",
+    "explanation": "'Drücken' means to push (a door)."
+  },
+  {
+    "id": 603,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Lesen Sie: 'Kein Trinkwasser'. Darf man das Wasser trinken?",
+    "options": ["Ja", "Nein", "Nur kochen", "Nur für Hunde"],
+    "correctAnswer": "Nein",
+    "explanation": "'Kein Trinkwasser' means not drinking water."
+  },
+  {
+    "id": 604,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Notiz: 'Treffen im Cafe Central um 15 Uhr'. Wo treffen sie sich?",
+    "options": ["Cafe Central", "Hauptbahnhof", "Park", "Bäckerei"],
+    "correctAnswer": "Cafe Central",
+    "explanation": "The location is 'Cafe Central'."
+  },
+  {
+    "id": 605,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Anzeige: 'Gebrauchtes Fahrrad zu verkaufen, 50 Euro'. Was wird verkauft?",
+    "options": ["A car", "A book", "A bicycle", "A phone"],
+    "correctAnswer": "A bicycle",
+    "explanation": "'Fahrrad' means bicycle."
+  },
+  {
+    "id": 606,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Schild: 'Betreten auf eigene Gefahr'. Was bedeutet das?",
+    "options": ["Enter at your own risk", "Safe to enter", "No entry", "Entry is free"],
+    "correctAnswer": "Enter at your own risk",
+    "explanation": "'Auf eigene Gefahr' means at your own risk."
+  },
+  {
+    "id": 607,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Brief: 'Hiermit kündige ich meinen Vertrag fristgerecht zum nächsten Monat'. Was passiert?",
+    "options": ["The contract is extended", "The contract is canceled", "The contract is changed", "A new contract is signed"],
+    "correctAnswer": "The contract is canceled",
+    "explanation": "'Kündigen' means to cancel/terminate."
+  },
+  {
+    "id": 608,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Anzeige: 'WG-Zimmer in zentraler Lage, 350 Euro warm'. Was bedeutet 'warm'?",
+    "options": ["Heating is included", "The room is hot", "It's a warm welcome", "Hot water only"],
+    "correctAnswer": "Heating is included",
+    "explanation": "'Warmmiete' means rent including utilities/heating."
+  },
+  {
+    "id": 609,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Schild: 'Barzahlung nur mit genauem Betrag'. Was müssen Sie haben?",
+    "options": ["Credit card", "Exact change", "A check", "No cash"],
+    "correctAnswer": "Exact change",
+    "explanation": "'Genauer Betrag' means exact amount."
+  },
+  {
+    "id": 610,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "E-Mail: 'Ich werde die Unterlagen in Kopie an Sie weiterleiten'. Was passiert?",
+    "options": ["Documents will be copied and sent", "Documents will be destroyed", "Documents will be kept", "Documents will be changed"],
+    "correctAnswer": "Documents will be copied and sent",
+    "explanation": "'In Kopie weiterleiten' means to forward a copy."
+  },
+  {
+    "id": 611,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Schild: 'Benutzung auf eigene Verantwortung'. Was bedeutet das?",
+    "options": ["Use is free", "Use at your own responsibility", "Use is forbidden", "Use is supervised"],
+    "correctAnswer": "Use at your own responsibility",
+    "explanation": "'Eigene Verantwortung' means own responsibility."
+  },
+  {
+    "id": 612,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Anzeige: 'Nachmieter für 2-Zimmer-Wohnung mit EBK gesucht'. Was ist 'EBK'?",
+    "options": ["A built-in kitchen", "A balcony", "A basement", "A bathroom"],
+    "correctAnswer": "A built-in kitchen",
+    "explanation": "'EBK' means Einbauküche (fitted kitchen)."
+  },
+  {
+    "id": 613,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Brief: 'Wir bitten um Verständnis für die Verzögerung'. Was möchte der Absender?",
+    "options": ["Understanding for the delay", "Payment immediately", "A complaint", "Cancellation"],
+    "correctAnswer": "Understanding for the delay",
+    "explanation": "'Verständnis für die Verzögerung' means understanding for the delay."
+  },
+  {
+    "id": 614,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Schild: 'Für Schäden wird keine Haftung übernommen'. Was bedeutet das?",
+    "options": ["They will pay for damages", "No liability for damages", "Damages are welcome", "Damages are required"],
+    "correctAnswer": "No liability for damages",
+    "explanation": "'Keine Haftung' means no liability."
+  },
+  {
+    "id": 615,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Anzeige: 'Tausche Deutsch- gegen Englischunterricht'. Was sucht die Person?",
+    "options": ["To exchange German lessons for English lessons", "To buy German books", "To sell English books", "To find a German teacher"],
+    "correctAnswer": "To exchange German lessons for English lessons",
+    "explanation": "'Tausche...gegen' means to exchange...for."
+  },
+  {
+    "id": 616,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Schild: 'Bitte Abstand halten - Gefahr durch herabfallende Gegenstände'. Warum Abstand halten?",
+    "options": ["Danger from falling objects", "Danger from fire", "Danger from water", "Danger from animals"],
+    "correctAnswer": "Danger from falling objects",
+    "explanation": "'Herabfallende Gegenstände' means falling objects."
+  },
+  {
+    "id": 617,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "E-Mail: 'Ich komme der Bitte um Aufschub des Termins gerne nach'. Was passiert?",
+    "options": ["The appointment is postponed", "The appointment is confirmed", "The appointment is canceled", "The appointment is forgotten"],
+    "correctAnswer": "The appointment is postponed",
+    "explanation": "'Aufschub' means postponement/delay."
+  },
+  {
+    "id": 618,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Schild: 'Hunde müssen angeleint werden'. Was müssen Hundebesitzer tun?",
+    "options": ["Keep dogs on a leash", "Let dogs run free", "Leave dogs outside", "Feed the dogs"],
+    "correctAnswer": "Keep dogs on a leash",
+    "explanation": "'Angeleint' means on a leash."
+  },
+  {
+    "id": 619,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Anzeige: 'Tauschkreis für Bücher und DVDs gegründet'. Was ist ein Tauschkreis?",
+    "options": ["A shop to buy books", "A group for exchanging items", "A library", "A book destruction service"],
+    "correctAnswer": "A group for exchanging items",
+    "explanation": "'Tauschkreis' is an exchange circle/group."
+  },
+  {
+    "id": 620,
+    "category": "reading",
+    "difficulty": "hard",
+    "question": "Schild: 'Betreten der Baustelle verboten - Eltern haften für ihre Kinder'. Was bedeutet 'haften'?",
+    "options": ["Parents must pay for damage", "Parents are responsible", "Parents can enter", "Parents must work"],
+    "correctAnswer": "Parents are responsible",
+    "explanation": "'Haften' means to be liable/responsible."
+  }
+]

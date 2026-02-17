@@ -1,0 +1,182 @@
+[
+  {
+    "id": 301,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich habe Kopfschmerzen.' Was hat die Person?",
+    "options": ["Stomach ache", "Headache", "Back ache", "Tooth ache"],
+    "correctAnswer": "Headache",
+    "explanation": "'Kopf' means head, 'Schmerzen' means pain/ache."
+  },
+  {
+    "id": 302,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Wir treffen uns am Samstag.' Wann treffen sie sich?",
+    "options": ["Freitag", "Samstag", "Sonntag", "Montag"],
+    "correctAnswer": "Samstag",
+    "explanation": "'Samstag' is Saturday."
+  },
+  {
+    "id": 303,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Das Wetter ist heute sonnig.' Wie ist das Wetter?",
+    "options": ["Kalt", "Regnerisch", "Sonnig", "Windig"],
+    "correctAnswer": "Sonnig",
+    "explanation": "'Sonnig' means sunny."
+  },
+  {
+    "id": 304,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich trage einen blauen Pullover.' Welche Farbe hat der Pullover?",
+    "options": ["Rot", "Gelb", "Grün", "Blau"],
+    "correctAnswer": "Blau",
+    "explanation": "'Blau' means blue."
+  },
+  {
+    "id": 305,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Entschuldigung, wie komme ich zum Bahnhof?' Was sucht die Person?",
+    "options": ["Flughafen", "Bahnhof", "Supermarkt", "Hotel"],
+    "correctAnswer": "Bahnhof",
+    "explanation": "'Bahnhof' means train station."
+  },
+  {
+    "id": 306,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich habe mich erkältet und muss zum Arzt gehen.' Was ist mit der Person?",
+    "options": ["Sie hat Hunger", "Sie hat sich erkältet", "Sie ist müde", "Sie ist glücklich"],
+    "correctAnswer": "Sie hat sich erkältet",
+    "explanation": "'Sich erkälten' means to catch a cold."
+  },
+  {
+    "id": 307,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Der Flug geht um 16:45 Uhr.' Wann geht der Flug?",
+    "options": ["16:15 Uhr", "16:30 Uhr", "16:45 Uhr", "17:00 Uhr"],
+    "correctAnswer": "16:45 Uhr",
+    "explanation": "'Sechzehn Uhr fünfundvierzig' is 16:45."
+  },
+  {
+    "id": 308,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich habe meinen Schlüssel verloren.' Was hat die Person verloren?",
+    "options": ["Die Geldbörse", "Den Schlüssel", "Das Handy", "Die Brille"],
+    "correctAnswer": "Den Schlüssel",
+    "explanation": "'Schlüssel' means key."
+  },
+  {
+    "id": 309,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Das Konzert findet nächste Woche statt.' Wann findet das Konzert statt?",
+    "options": ["Diese Woche", "Nächste Woche", "Nächsten Monat", "Nächstes Jahr"],
+    "correctAnswer": "Nächste Woche",
+    "explanation": "'Nächste Woche' means next week."
+  },
+  {
+    "id": 310,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Meine Eltern wohnen auf dem Land.' Wo wohnen die Eltern?",
+    "options": ["In der Stadt", "Auf dem Land", "Im Ausland", "Am Meer"],
+    "correctAnswer": "Auf dem Land",
+    "explanation": "'Auf dem Land' means in the countryside."
+  },
+  {
+    "id": 311,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich brauche ein Rezept für dieses Medikament.' Was braucht die Person?",
+    "options": ["Eine Beratung", "Ein Rezept", "Eine Untersuchung", "Einen Termin"],
+    "correctAnswer": "Ein Rezept",
+    "explanation": "'Rezept' means prescription."
+  },
+  {
+    "id": 312,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Der Zug hat 20 Minuten Verspätung.' Was ist mit dem Zug?",
+    "options": ["Er ist pünktlich", "Er hat Verspätung", "Er fällt aus", "Er ist schneller"],
+    "correctAnswer": "Er hat Verspätung",
+    "explanation": "'Verspätung' means delay."
+  },
+  {
+    "id": 313,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich habe mir den Arm gebrochen.' Was ist passiert?",
+    "options": ["Er hat sich den Finger gebrochen", "Er hat sich den Arm gebrochen", "Er hat sich das Bein gebrochen", "Er hat sich die Hand gebrochen"],
+    "correctAnswer": "Er hat sich den Arm gebrochen",
+    "explanation": "'Den Arm brechen' means to break one's arm."
+  },
+  {
+    "id": 314,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Die Prüfung findet im zweiten Stock statt.' Wo findet die Prüfung statt?",
+    "options": ["Im ersten Stock", "Im zweiten Stock", "Im dritten Stock", "Im Erdgeschoss"],
+    "correctAnswer": "Im zweiten Stock",
+    "explanation": "'Zweiter Stock' means second floor."
+  },
+  {
+    "id": 315,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich möchte einen Tisch für vier Personen reservieren.' Für wie viele Personen soll der Tisch reserviert werden?",
+    "options": ["Zwei Personen", "Drei Personen", "Vier Personen", "Fünf Personen"],
+    "correctAnswer": "Vier Personen",
+    "explanation": "'Vier Personen' means four people."
+  },
+  {
+    "id": 316,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Der Frühling ist meine Lieblingsjahreszeit.' Welche Jahreszeit mag die Person am liebsten?",
+    "options": ["Der Winter", "Der Frühling", "Der Sommer", "Der Herbst"],
+    "correctAnswer": "Der Frühling",
+    "explanation": "'Frühling' means spring."
+  },
+  {
+    "id": 317,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Mein Zug fährt um halb neun ab.' Wann fährt der Zug ab?",
+    "options": ["8:00 Uhr", "8:30 Uhr", "9:00 Uhr", "9:30 Uhr"],
+    "correctAnswer": "8:30 Uhr",
+    "explanation": "'Halb neun' is 8:30 (half before nine)."
+  },
+  {
+    "id": 318,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich muss morgen zum Zahnarzt.' Wohin muss die Person morgen?",
+    "options": ["Zum Allgemeinarzt", "Zum Zahnarzt", "Zum Krankenhaus", "Zur Apotheke"],
+    "correctAnswer": "Zum Zahnarzt",
+    "explanation": "'Zahnarzt' means dentist."
+  },
+  {
+    "id": 319,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Ich habe eine Erkältung und muss im Bett bleiben.' Warum bleibt die Person im Bett?",
+    "options": ["Sie ist müde", "Sie hat eine Erkältung", "Sie liest ein Buch", "Sie schläft"],
+    "correctAnswer": "Sie hat eine Erkältung",
+    "explanation": "'Eine Erkältung haben' means to have a cold."
+  },
+  {
+    "id": 320,
+    "category": "listening",
+    "difficulty": "hard",
+    "question": "Hören Sie: 'Das Theaterstück dauert zwei Stunden.' Wie lange dauert das Stück?",
+    "options": ["Eine Stunde", "Zwei Stunden", "Drei Stunden", "Vier Stunden"],
+    "correctAnswer": "Zwei Stunden",
+    "explanation": "'Zwei Stunden' means two hours."
+  }
+]
