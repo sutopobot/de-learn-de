@@ -63,7 +63,7 @@ export default function AboutPage() {
             <ul className="space-y-2 ml-4">
               <li className="flex items-start gap-2">
                 <span className="text-de-red font-bold">de</span>
-                <span>= affectionate address (dee/kik)</span>
+                <span>= affectionate address (dek/dik)</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-de-red font-bold">learn</span>
@@ -150,7 +150,7 @@ export default function AboutPage() {
         {/* Version */}
         <div className="text-center text-gray-400 text-sm pb-6">
           <p>Version 1.0.0</p>
-          <p className="mt-1">Made with ❤️ in Indonesia</p>
+          <p className="mt-1">Made with ❤️ in München</p>
         </div>
       </div>
     </div>

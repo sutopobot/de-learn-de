@@ -4,7 +4,7 @@ Ine Maria's German A1 course dashboard. A 14-day interactive course that's mobil
 
 ## 🎯 What is de-learn-de?
 
-- **de** = affectionate address (dee/kik)
+- **de** = affectionate address (dek/dik)
 - **learn** = to learn
 - **de** = Deutschland (Germany)
 
