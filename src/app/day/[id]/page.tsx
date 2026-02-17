@@ -3,7 +3,6 @@
 import { useParams, useRouter } from "next/navigation";
 import { useProgress } from "../../context/ProgressContext";
 import { ChevronLeft, Headphones, BookText, PenTool, Mic, CheckCircle2, ChevronRight } from "lucide-react";
-import Link from "next/link";
 
 const SESSIONS = [
   { id: 'hoeren', title: 'Hören', label: 'Mendengar', icon: Headphones, color: 'bg-blue-500' },
@@ -11,6 +10,8 @@ const SESSIONS = [
   { id: 'schreiben', title: 'Schreiben', label: 'Menulis', icon: PenTool, color: 'bg-orange-500' },
   { id: 'sprechen', title: 'Sprechen', label: 'Berbicara', icon: Mic, color: 'bg-de-red' },
 ] as const;
+
+type SessionId = 'hoeren' | 'lesen' | 'schreiben' | 'sprechen';
 
 export default function DayPage() {
   const { id } = useParams();
@@ -39,7 +40,7 @@ export default function DayPage() {
     );
   }
 
-  const handleSessionToggle = (sessionId: typeof SESSIONS[number]['id']) => {
+  const handleSessionToggle = (sessionId: SessionId) => {
     updateSession(dayNum, sessionId, !dayData.sessions[sessionId]);
   };
 

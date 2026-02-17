@@ -7,7 +7,7 @@ import BottomNav from "./components/BottomNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "German Course Dashboard",
+  title: "de-learn-de",
   description: "Learn German mobile-first",
 };
 
