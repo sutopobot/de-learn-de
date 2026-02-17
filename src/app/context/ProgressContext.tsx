@@ -18,7 +18,7 @@ interface DayData {
     hoeren: SessionProgress;
     lesen: SessionProgress;
   };
-  hearts: number;                    // 0-3 hearts per day
+  hearts: number;                    // 0-5 hearts per day
   heartsResetAt: string;             // ISO date string
   tomorrowHeartsUsed: boolean;       // Track if used tomorrow's hearts
 }
@@ -33,6 +33,7 @@ interface ProgressContextType {
   progress: Progress;
   attemptQuiz: (day: number, session: SessionType, passed: boolean) => boolean;
   consumeTomorrowHearts: (day: number) => boolean;
+  consumeHeartForHint: (day: number) => boolean;
   unlockDay: (day: number) => void;
   getStreak: () => number;
   getHearts: (day: number) => number;
@@ -43,7 +44,7 @@ interface ProgressContextType {
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
 
 const STORAGE_KEY = 'german-progress';
-const MAX_HEARTS = 3;
+const MAX_HEARTS = 5;
 
 const createDefaultSessions = (): { hoeren: SessionProgress; lesen: SessionProgress } => ({
   hoeren: { completed: false, attempts: 0, lastAttemptAt: null },
@@ -275,6 +276,41 @@ export const ProgressProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     return success;
   }, []);
 
+  // Consume 1 heart for hint/text reveal
+  const consumeHeartForHint = useCallback((day: number): boolean => {
+    let success = false;
+    
+    setProgress(prev => {
+      const dayData = prev.days[day];
+      if (!dayData) return prev;
+      
+      // Check if hearts need reset
+      let currentHearts = dayData.hearts;
+      if (isNewDay(dayData.heartsResetAt)) {
+        currentHearts = MAX_HEARTS;
+      }
+      
+      // Check if can consume
+      if (currentHearts <= 0) {
+        return prev;
+      }
+      
+      success = true;
+      return {
+        ...prev,
+        days: {
+          ...prev.days,
+          [day]: {
+            ...dayData,
+            hearts: currentHearts - 1
+          }
+        }
+      };
+    });
+    
+    return success;
+  }, []);
+
   const unlockDay = useCallback((day: number) => {
     setProgress(prev => ({
       ...prev,
@@ -300,8 +336,9 @@ export const ProgressProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     <ProgressContext.Provider value={{ 
       progress, 
       attemptQuiz, 
-    consumeTomorrowHearts,
-    unlockDay,
+      consumeTomorrowHearts,
+      consumeHeartForHint,
+      unlockDay,
       getStreak,
       getHearts,
       canUseTomorrowHearts,

@@ -101,7 +101,7 @@ const tipsData = [
   {
     icon: Heart,
     title: "Cerdas Menggunakan Hearts",
-    description: "Anda memiliki 3 nyawa per hari. Setiap kali gagal quiz (>2 jawaban salah), Anda kehilangan 1 nyawa. Tips: Pelajari soal dengan baik sebelum menjawab, gunakan fitur audio untuk listening berulang kali.",
+    description: "Anda memiliki 5 nyawa per hari. Setiap kali gagal quiz (>2 jawaban salah), Anda kehilangan 1 nyawa. Tips: Pelajari soal dengan baik sebelum menjawab, gunakan fitur audio untuk listening berulang kali.",
     color: "bg-red-50 border-red-200"
   },
   {

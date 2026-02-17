@@ -76,7 +76,7 @@ vercel
 
 1. **Open the link** - Ine opens the website on her phone
 2. **Pick Day 1** - Always unlocked
-3. **Check Hearts** - You have 3 ❤️ per day
+3. **Check Hearts** - You have 5 ❤️ per day
 4. **Start Hören** - Click to begin listening quiz (5 questions, TTS audio)
 5. **Answer Questions** - One-by-one navigation, choose from 4 options
 6. **Submit** - After answering all 5 questions
@@ -116,11 +116,12 @@ vercel
 - **Lesen (Reading)**: 5 text-based questions
 
 ### Hearts System
-- Start each day with **3 ❤️**
+- Start each day with **5 ❤️**
 - Lose **1 ❤️** when failing a quiz (>2 wrong answers)
+- Lose **1 ❤️** to reveal text in listening questions (optional)
 - **❤️ = 0**: Cannot attempt more quizzes today
 - **Borrow Hearts**: Use "Gunakan ❤️ Besok" to borrow from tomorrow (tomorrow starts with 0 ❤️)
-- **Daily Reset**: Hearts reset to 3 at midnight
+- **Daily Reset**: Hearts reset to 5 at midnight
 
 ### Question Bank
 - **Total**: 80 questions

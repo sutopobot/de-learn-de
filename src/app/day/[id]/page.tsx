@@ -109,7 +109,7 @@ export default function DayPage() {
               }
             </p>
           </div>
-          <HeartsIndicator hearts={hearts} maxHearts={3} size="lg" />
+          <HeartsIndicator hearts={hearts} maxHearts={5} size="lg" />
         </div>
 
         {/* Info Card */}
@@ -145,7 +145,7 @@ export default function DayPage() {
             <div className="bg-white rounded-2xl p-6 max-w-sm w-full">
               <h3 className="text-lg font-bold text-de-black mb-2">Gunakan Nyawa Besok?</h3>
               <p className="text-sm text-gray-600 mb-4">
-                Anda akan menggunakan 3 nyawa dari hari besok. Besok Anda akan mulai dengan 0 nyawa. Lanjutkan?
+                Anda akan menggunakan 5 nyawa dari hari besok. Besok Anda akan mulai dengan 0 nyawa. Lanjutkan?
               </p>
               <div className="flex gap-3">
                 <button

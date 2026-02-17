@@ -15,7 +15,7 @@ export default function QuizPage() {
   const dayNum = parseInt(id as string);
   const category = searchParams.get("category") as "hoeren" | "lesen" | null;
   
-  const { attemptQuiz, getHearts, progress } = useProgress();
+  const { attemptQuiz, getHearts, progress, consumeHeartForHint } = useProgress();
   
   const [quizSession, setQuizSession] = useState<QuizSession | null>(null);
   const [quizResult, setQuizResult] = useState<QuizResult | null>(null);
@@ -292,6 +292,8 @@ export default function QuizPage() {
           selectedAnswer={quizSession.answers[quizSession.currentIndex]}
           onSelectAnswer={handleAnswerSelect}
           showResult={false}
+          onConsumeHeartForHint={() => consumeHeartForHint(dayNum)}
+          canConsumeHeart={getHearts(dayNum) > 0}
         />
       </div>
 

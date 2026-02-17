@@ -1,6 +1,7 @@
 "use client";
 
-import { Check, X } from "lucide-react";
+import { useState } from "react";
+import { Check, X, Eye, Heart } from "lucide-react";
 import { Question } from "../data/questions";
 import TTSAudio from "./TTSAudio";
 
@@ -11,6 +12,8 @@ interface QuizCardProps {
   selectedAnswer: number | null;
   onSelectAnswer: (index: number) => void;
   showResult?: boolean;
+  onConsumeHeartForHint?: () => boolean;
+  canConsumeHeart?: boolean;
 }
 
 export default function QuizCard({
@@ -20,8 +23,17 @@ export default function QuizCard({
   selectedAnswer,
   onSelectAnswer,
   showResult = false,
+  onConsumeHeartForHint,
+  canConsumeHeart = false,
 }: QuizCardProps) {
   const isListening = question.category === "listening";
+  const [isTextRevealed, setIsTextRevealed] = useState(false);
+
+  const handleRevealText = () => {
+    if (onConsumeHeartForHint && onConsumeHeartForHint()) {
+      setIsTextRevealed(true);
+    }
+  };
 
   return (
     <div className="bg-white rounded-2xl border-2 border-gray-100 p-6 shadow-sm">
@@ -57,13 +69,35 @@ export default function QuizCard({
         </div>
       )}
 
-      {/* Question Text */}
+      {/* Question Text - Hidden for listening unless revealed */}
       <div className="mb-6">
-        <h3 className="text-lg font-bold text-gray-800 leading-relaxed">
-          {isListening
-            ? question.question
-            : question.question}
-        </h3>
+        {isListening && !isTextRevealed && !showResult ? (
+          <div className="bg-gray-100 rounded-xl p-6 text-center">
+            <p className="text-gray-500 mb-3">Teks disembunyikan untuk tantangan</p>
+            <button
+              onClick={handleRevealText}
+              disabled={!canConsumeHeart}
+              className={`flex items-center justify-center gap-2 mx-auto px-4 py-2 rounded-xl font-medium transition-all ${
+                canConsumeHeart
+                  ? "bg-de-red text-white hover:bg-red-600"
+                  : "bg-gray-300 text-gray-500 cursor-not-allowed"
+              }`}
+            >
+              <Eye className="w-4 h-4" />
+              Tampilkan Teks
+              <span className="flex items-center gap-1 text-sm">
+                (-1 <Heart className="w-3 h-3 fill-current" />)
+              </span>
+            </button>
+            {!canConsumeHeart && (
+              <p className="text-xs text-red-500 mt-2">Nyawa tidak cukup</p>
+            )}
+          </div>
+        ) : (
+          <h3 className="text-lg font-bold text-gray-800 leading-relaxed">
+            {question.question}
+          </h3>
+        )}
       </div>
 
       {/* Options */}
